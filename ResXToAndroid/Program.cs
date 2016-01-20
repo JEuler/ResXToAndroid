@@ -33,7 +33,9 @@ namespace ResXToAndroid {
 				{
 					writer.WriteStartElement("string");
 					writer.WriteAttributeString("name", pair.Name);
-					writer.WriteValue(pair.Value);
+					var str = pair.Value;
+					// Apostrophe handle done with str.replace
+					writer.WriteValue( str.Replace( "'", "\\'" ) );
 					writer.WriteEndElement();
 				}
 				writer.WriteEndElement();
