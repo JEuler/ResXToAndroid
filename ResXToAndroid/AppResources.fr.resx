@@ -1,0 +1,2201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>À propos du programme</value>
+  </data>
+  <data name="AboutAdamovEmail" xml:space="preserve">
+    <value>ighost59@gmail.com</value>
+  </data>
+  <data name="AboutAdamovInfo" xml:space="preserve">
+    <value>Adamov Rouslan, consultant</value>
+  </data>
+  <data name="AboutAgarlevEmail" xml:space="preserve">
+    <value>agarlev@gmail.com</value>
+  </data>
+  <data name="AboutAgarlevInfo" xml:space="preserve">
+    <value>Agarlaev Igor, programmeur</value>
+  </data>
+  <data name="AboutFeedback" xml:space="preserve">
+    <value>Écrire aux concepteurs</value>
+  </data>
+  <data name="AboutReview" xml:space="preserve">
+    <value>Laisser un avis</value>
+  </data>
+  <data name="AboutTeryohinEmail" xml:space="preserve">
+    <value>i.terhin@gmail.com</value>
+  </data>
+  <data name="AboutTeryohinInfo" xml:space="preserve">
+    <value>Teryehin Ivan, programmeur</value>
+  </data>
+  <data name="AboutThanks" xml:space="preserve">
+    <value>Merci d'avoir utilisé notre programme ! Nous apprécierons si vous preniez quelques secondes afin de laisser un avis !</value>
+  </data>
+  <data name="AddStep" xml:space="preserve">
+    <value>ajouter une étape</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>tout</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>WinGym</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Appliquer</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Êtes-vous sûr ?</value>
+  </data>
+  <data name="Bicycle" xml:space="preserve">
+    <value>vélo d'appartement</value>
+  </data>
+  <data name="BodyParametersCaption" xml:space="preserve">
+    <value>Tableau de mesures du corps</value>
+  </data>
+  <data name="BodyParamsExportMessage" xml:space="preserve">
+    <value>Ici, les mesures du corps sont inscrites selon le type : partie du corps - taille.</value>
+  </data>
+  <data name="BodySizesHips" xml:space="preserve">
+    <value>Cuisses</value>
+  </data>
+  <data name="BodySizesLeftBicep" xml:space="preserve">
+    <value>Biceps gauche</value>
+  </data>
+  <data name="BodySizesLeftCalv" xml:space="preserve">
+    <value>Mollet gauche</value>
+  </data>
+  <data name="BodySizesLeftForearm" xml:space="preserve">
+    <value>Avant-bras gauche</value>
+  </data>
+  <data name="BodySizesLeftQuad" xml:space="preserve">
+    <value>Cuisse gauche</value>
+  </data>
+  <data name="BodySizesLeftWrist" xml:space="preserve">
+    <value>Poignet gauche</value>
+  </data>
+  <data name="BodySizesNeck" xml:space="preserve">
+    <value>Cou</value>
+  </data>
+  <data name="BodySizesRightBicep" xml:space="preserve">
+    <value>Biceps droit</value>
+  </data>
+  <data name="BodySizesRightCalv" xml:space="preserve">
+    <value>Mollet droit</value>
+  </data>
+  <data name="BodySizesRightForearm" xml:space="preserve">
+    <value>Avant-bras droit</value>
+  </data>
+  <data name="BodySizesRightQuad" xml:space="preserve">
+    <value>Cuisse droite</value>
+  </data>
+  <data name="BodySizesRightWrist" xml:space="preserve">
+    <value>Poignet droit</value>
+  </data>
+  <data name="BodySizesShoulders" xml:space="preserve">
+    <value>Épaules</value>
+  </data>
+  <data name="BodySizesStomach" xml:space="preserve">
+    <value>Ventre</value>
+  </data>
+  <data name="BodySizesWaist" xml:space="preserve">
+    <value>Tour de taille</value>
+  </data>
+  <data name="BodySizesСhest" xml:space="preserve">
+    <value>Poitrine (Pectoraux)</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Acheter l'application</value>
+  </data>
+  <data name="Cardio" xml:space="preserve">
+    <value>Cardio</value>
+  </data>
+  <data name="CardioDetailEllipse" xml:space="preserve">
+    <value>1. Les pieds doivent être bien à plat sur les plateformes, les jambes parallèles l'une par rapport à l'autre. 2. Si le vélo elliptique n'a pas de poignées tenez les bras librement. L’angle d’ouverture du coude doit être de 90° minimum. Exemple de séance sur le vélo elliptique №1 : Les 5 premières minutes : niveau - 4 basse intensité. Les 5 min. suivantes : niveau -6, intensité modérée. Les 5 min. suivantes : niveau -7, intensité un peu plus que modérée. Les 5 min. suivantes : niveau -8, haute intensité. Les 5 min. suivantes : niveau -7, toujours haute intensité. Maintenant, 2 min : niveau - 10, intensité maximum. Les 3 dernières minutes : niveau - 4, basse intensité (récupération).   Exemple de séance sur le vélo elliptique №2: On peux faire une séance en fractionné, aussi appelé interval training pendant 20-45min avec un niveau d'intensité de 4 à 7. Une séance en fractionné permet de brûler 2 fois plus de calories.</value>
+  </data>
+  <data name="CardioSm" xml:space="preserve">
+    <value>cardio</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Sélectionner une langue</value>
+  </data>
+  <data name="ChestBack" xml:space="preserve">
+    <value>Pectoraux - Dos</value>
+  </data>
+  <data name="comment1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment100" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment101" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment102" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment103" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment104" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment105" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment106" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment107" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment108" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment109" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment110" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment112" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment113" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment114" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment115" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment116" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment117" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment118" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment119" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment12" xml:space="preserve">
+    <value>On peut aussi faire cet exercice à la Smith machine.</value>
+  </data>
+  <data name="comment120" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment121" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment122" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment123" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment124" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment125" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment126" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment127" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment128" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment129" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment13" xml:space="preserve">
+    <value>On peut aussi faire cet exercice à la Smith machine.</value>
+  </data>
+  <data name="comment130" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment131" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment132" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment133" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment134" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment15" xml:space="preserve">
+    <value>On peut faire des pompes en appui sur les paumes des mains, ainsi que sur les poings fermés.</value>
+  </data>
+  <data name="comment16" xml:space="preserve">
+    <value>On peut faire des pompes en appui sur les paumes des mains, ainsi que sur les poings fermés.</value>
+  </data>
+  <data name="comment17" xml:space="preserve">
+    <value>Plus vous descendez votre corps, plus grande est l'amplitude des mouvements des muscles.</value>
+  </data>
+  <data name="comment18" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment19" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment20" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment21" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment22" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment23" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment24" xml:space="preserve">
+    <value>Cet exercice peut aussi s'executer avec une barre ou à la poulie.</value>
+  </data>
+  <data name="comment25" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment26" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment27" xml:space="preserve">
+    <value>Pour augmenter la difficulté de l'exercice prenez un haltère dans la main qui est du côté de la jambe avec laquelle vous allez faire les flexions.</value>
+  </data>
+  <data name="comment28" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment29" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment30" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment31" xml:space="preserve">
+    <value>En levant les jambes vers le haut, vous pouvez un peu soulever les fessiers du banc - cela améliorera le travail des muscles des abdos.</value>
+  </data>
+  <data name="comment32" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment33" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment34" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment35" xml:space="preserve">
+    <value>Il est préférable de porter une ceinture de musculation pour cet exercice.</value>
+  </data>
+  <data name="comment36" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment37" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment38" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment39" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment40" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment41" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment42" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment43" xml:space="preserve">
+    <value>On peut de la même façon effectuer l'exercice avec chaque jambe tour à tour.</value>
+  </data>
+  <data name="comment44" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment45" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment46" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment47" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment48" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment49" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment50" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment51" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment52" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment53" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment54" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment55" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment56" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment57" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment58" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment59" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment60" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment61" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment62" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment63" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment64" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment65" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment66" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment67" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment68" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment69" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment7" xml:space="preserve">
+    <value>On peut aussi faire cet exercice à la Smith machine ou avec des haltères.</value>
+  </data>
+  <data name="comment70" xml:space="preserve">
+    <value>On peut aussi faire cet exercice à la Smith machine ou avec des haltères ou encore à la poulie.</value>
+  </data>
+  <data name="comment71" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment72" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment73" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment74" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment75" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment76" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment77" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment78" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment79" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment80" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment81" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment82" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment83" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment84" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment85" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment86" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment87" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment88" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment89" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment90" xml:space="preserve">
+    <value>Il est préférable de porter une ceinture de musculation pour cet exercice.</value>
+  </data>
+  <data name="comment91" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment92" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment93" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment94" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment95" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment96" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment97" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment98" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comment99" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Constraints" xml:space="preserve">
+    <value>Dans la version d'essai de l'application, vous avez accès à un nombre restreint d'exercices et vous pouvez créer qu'une séance. De plus dans la version complète, vous avez une occasion unique de créer vos exercices.</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>date</value>
+  </data>
+  <data name="DaysFriday" xml:space="preserve">
+    <value>Vendredi</value>
+  </data>
+  <data name="DaysFridaySh" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="DaysMonday" xml:space="preserve">
+    <value>Lundi</value>
+  </data>
+  <data name="DaysMondaySh" xml:space="preserve">
+    <value>Lu</value>
+  </data>
+  <data name="DaysSaturday" xml:space="preserve">
+    <value>Samedi</value>
+  </data>
+  <data name="DaysSaturdaySh" xml:space="preserve">
+    <value>Sa</value>
+  </data>
+  <data name="DaysSunday" xml:space="preserve">
+    <value>Dimanche</value>
+  </data>
+  <data name="DaysSundaySh" xml:space="preserve">
+    <value>Di</value>
+  </data>
+  <data name="DaysThursday" xml:space="preserve">
+    <value>Jeudi</value>
+  </data>
+  <data name="DaysThursdaySh" xml:space="preserve">
+    <value>Je</value>
+  </data>
+  <data name="DaysTuesday" xml:space="preserve">
+    <value>Mardi</value>
+  </data>
+  <data name="DaysTuesdaySh" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="DaysWednesday" xml:space="preserve">
+    <value>Mercredi</value>
+  </data>
+  <data name="DaysWednesdaySh" xml:space="preserve">
+    <value>Me</value>
+  </data>
+  <data name="DeleteSet" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="description1" xml:space="preserve">
+    <value>Saisissez les haltères, tenez-vous droit, le dos doit être droit pendant tout l'exercice.; Faites un pas en avant avec la jambe droite, pliez le genou, jusqu’à former un angle approximativement droit. Maintenez la position quelques secondes.; Revenez lentement à la position initiale, répétez le mouvement avec l'autre jambe.</value>
+  </data>
+  <data name="description10" xml:space="preserve">
+    <value>Allongé sur le banc, placez les mains en supination sur la barre (paumes dirigées vers le haut), à la largeur des épaules. Enlevez la barre des supports ; decsendez-la jusqu'aux pectoraux, puis remontez-la lentement. Répétez le mouvement.</value>
+  </data>
+  <data name="description100" xml:space="preserve">
+    <value>Atrappez les cables, accrochés à deux poulies hautes, les pouces pointant vers le haut (main gauche sur la prise droite et vice-versa). Amenez les mains derrière la tête. Tenez le dos droit, les bras fléchis.; Commencer à tendre les bras sur les côtés en essayant de ne pas bouger les coudes. Une fois les bras complétement tendus - maintenez la position quelques secondes.; Revenez à la position initiale, répétez le mouvement.</value>
+  </data>
+  <data name="description101" xml:space="preserve">
+    <value>Assis, sur le banc, saisissez les haltères. Placez vos avant-bras sur vos cuisses, la paume des mains vers le haut (supination). La position de départ - les poignets inclinés vers le sol.; Pliez complètement vos poignets vers le haut. Redescendez les poings vers le bas. Répétez le mouvement.</value>
+  </data>
+  <data name="description102" xml:space="preserve">
+    <value>Debout, bien droit. Saisissez les haltères, paumes tournées vers votre corps.; Amenez les haltères au menton (nez), en pointant les coudes vers l'extérieur. Revenez à la position initiale.</value>
+  </data>
+  <data name="description103" xml:space="preserve">
+    <value>Placez-vous bien droit dos à l'appareil. Saisissez la poignée de la poulie haute avec une main.; Tendez le bras vers l'avant, en avançant un peu le corps vers la fin du mouvement. Revenez à la position initiale.</value>
+  </data>
+  <data name="description104" xml:space="preserve">
+    <value>Debout, bien droit. Saisissez les haltères.; Seuls les avant-bras exécutent le mouvement. Exécutez la flexion d'un avant-bras jusqu'au niveau des pectoraux. Descendez l'avant-bras à la position initiale, puis enchaînez une flexion avec l'autre bras.</value>
+  </data>
+  <data name="description105" xml:space="preserve">
+    <value>L'exercice s'effectue debout, le dos doit être bien droit. Fléchissez légèrement les genoux. Saisissez les haltères.; Levez-les épaules le plus haut possible ; et redescendez lentement. Recommencez le mouvement.</value>
+  </data>
+  <data name="description106" xml:space="preserve">
+    <value>Placez-vous dans la machine, saisissez les poignées, les lombaires bien calées au dossier. Placez les pieds à la largeur des épaules.; Fléchissez lentement les jambes, le bas du dos bien collé au banc. Revenez à la position initiale.
+</value>
+  </data>
+  <data name="description107" xml:space="preserve">
+    <value>Saisissez les haltères, tenez le dos droit. Placez vos pieds en diagonale. De façon à ce que…</value>
+  </data>
+  <data name="description108" xml:space="preserve">
+    <value>Placez un banc en position horizontale sous la machine. Allongez-vous sur le banc (sur le dos), de façon à ce que la barre soit au niveau des yeux. Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules.; Enlevez la barre des supports (en la levant vers le haut), puis descendez-la lentement jusqu'aux pectoraux. Poussez-la vers le haut.</value>
+  </data>
+  <data name="description109" xml:space="preserve">
+    <value>
+Placez-vous dans la machine presse à cuisse et placez vos jambes(droites, tendues) à la largeur des épaules.; Saisissez les poignées. Pliez les jambes avec en descendant la plateforme, jusqu'à qu'elles forment un angle droit. Le bas du dos bien calé contre le dossier. Revenez à la position initiale et répétez le mouvement.</value>
+  </data>
+  <data name="description11" xml:space="preserve">
+    <value>Allongé sur le banc, placez les mains sur la barre espacées d’une largeur légèrement inférieure à celle des épaules. Enlevez la barre des supports,; descendez la jusqu'aux pectoraux, puis remontez la sans secousses. Répétez le mouvement.</value>
+  </data>
+  <data name="description110" xml:space="preserve">
+    <value>Saisissez la barre. Reculez un pied en arrière, pour avoir une position stable. Montez la barre au-dessus de la tête.; Descendez-la lentement jusqu'à derrière la nuque, puis remontez-la vers le haut.</value>
+  </data>
+  <data name="description111" xml:space="preserve">
+    <value>Saisissez la barre. Reculez un pied en arrière, pour avoir une position stable. Montez la barre au-dessus de la tête.; Descendez lentement votre barre au niveau des clavicules, puis poussez-la vers le haut.
+</value>
+  </data>
+  <data name="description112" xml:space="preserve">
+    <value>Réglez la hauteur de la barre dans l'appareil de façon à ce qu'elle soit a la hauteur de votre poitrine. Placez les mains sur la barre à une largeur supérieure à celle des épaules.; Fléchissez les bras pour faire une pompe et revenez à la position initiale.</value>
+  </data>
+  <data name="description113" xml:space="preserve">
+    <value>Régler le poids, qui fera contre-poids pour vous aider lors de la traction, à un niveau approprié. Saisissez les poignées, placez les pieds sur la plate-forme de support.; Tirez-vous vers le haut. Revenez à la position initiale.</value>
+  </data>
+  <data name="description114" xml:space="preserve">
+    <value>Assis sur la machine à mollets, réglez et placez le support d’appui de la résistance. Saisissez les poignées,; enlevez la barre de sécurité en montant les talons le plus haut possible. Descendez lentement les talons le plus bas possible. Revenez à la position initiale.</value>
+  </data>
+  <data name="description115" xml:space="preserve">
+    <value>Attachez la chaîne au crossover, saisissez-la, reculez d'un pas.; Tirez la chaîne vers le bas, en gardant les bras tendus. Revenez à la position initiale.</value>
+  </data>
+  <data name="description116" xml:space="preserve">
+    <value>Réglez le dossier du banc de musculation de façon qu'il forme un angle droit avec le siège. Placez-le de façon à ce que la barre soit légèrement devant le siège. Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules. Levez-la; et redescendez-la lentement  vers les pectoraux. Revenez à la position initiale.</value>
+  </data>
+  <data name="description117" xml:space="preserve">
+    <value>Réglez le dossier du banc de musculation de façon qu'il forme un angle droit avec le siège. Placez-le de façon à ce que la barre soit environ dans l'axe du dossier. Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules. Levez-la; et descendez-la lentement  derrière la nuque en inclinant la tête vers l'avant (pour sécuriser votre tête). Revenez à la position initiale.
+</value>
+  </data>
+  <data name="description118" xml:space="preserve">
+    <value>Asseyez-vous sur la machine les jambes écartées(c’est la partie intérieure des cuisses qui repose sur le support). Mains sur les poignées.; Resserrez les cuisses, puis relâchez progressivement en revenant à la position initiale.</value>
+  </data>
+  <data name="description119" xml:space="preserve">
+    <value>Asseyez-vous sur la machine, les jambes serrées (c’est la partie extérieure des cuisses qui repose sur le support). Mains sur les poignées.; Écartez vos jambes au maximum, puis relâchez progressivement en revenant à la position initiale.
+</value>
+  </data>
+  <data name="description12" xml:space="preserve">
+    <value>Assis sur le banc avec le dossier du banc en position verticale. Demandez que l'on vous donne la barre. Saisissez la barre, les mains espacées d’une largeur légèrement supérieure à celle des épaules. Tendez vos bras au-dessus de la tête.; Descendez progressivement la barre derrière la nuque en inclinant au minimum la tête vers l'avant.; Une fois la barre derrière la nuque remontez-là vers le haut. Maintenez la position en haut pendant quelques secondes. Répétez le mouvement.</value>
+  </data>
+  <data name="description120" xml:space="preserve">
+    <value>Allongez-vous sur le banc de façon à ce que les jambes soient au-dessus du vide. Tendez les jambes de façon à ce qu'elle soient parallèles au sol et tenez-les serées.; Écartez-les lentement. Maintenez la position pendant quelques secondes. Revenez à la position initiale.</value>
+  </data>
+  <data name="description121" xml:space="preserve">
+    <value>Debout dos au mur. Placez un ballon de gym entre votre dos et le mur. Calé le bas du dos sur le milieu du ballon. Placez les pieds à la largeur des épaules.; Descendez lentement en fléchissant les genoux en gardant le dos bien droit. Revenez à la position initiale.</value>
+  </data>
+  <data name="description122" xml:space="preserve">
+    <value>Placez-vous debout sur un step, tenez-vous avec les mains à un support. Pliez une jambe; Faites un squat sur la jambe tendue en penchant le buste en arrière. Revenez à la position initiale.</value>
+  </data>
+  <data name="description123" xml:space="preserve">
+    <value>Placez-vous debout sous la barre (de la machine Smith). Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules. Les pieds ensembles, la barre sur vos épaules.; Descendez lentement en pliant les jambes. Attention à ne pas écarter les genoux et de ne pas se cambrer. Revenez à la position initiale.</value>
+  </data>
+  <data name="description124" xml:space="preserve">
+    <value>Placez-vous debout sous la barre (de la machine Smith). Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules. Les pieds placés à la largeur des épaules, la barre est sur vos épaules.; Descendez lentement en pliant les jambes. Attention à ne pas écarter les genoux et de ne pas s'arquer. Revenez à la position initiale.</value>
+  </data>
+  <data name="description125" xml:space="preserve">
+    <value>Allongé sur un ballon de gym. Les omoplates, les lombaires, le bassin sur le ballon, les pieds au sol.; Levez votre buste vers l'avant en gardant les pieds collés par terre. Revenez à la position initiale.</value>
+  </data>
+  <data name="description126" xml:space="preserve">
+    <value>Allongé sur le côté sur un tapis de gym. Tenez-vous avec les deux mains au sol pour avoir une position stable. Pliez la jambe qui est plus prés du sol, et tendez bien droit l'autre.; Montez la jambe tendue vers le haut. Revenez à la position initiale et enchaînez pour l'autre jambe.</value>
+  </data>
+  <data name="description127" xml:space="preserve">
+    <value>Choisissez une barre EZ pour le confort de vos poignets. L'exercice doit être effectué allongé. Les bras dirigés vers le haut, les coudes légèrement fléchis. Les paumes vers le haut (pronation).; En effectuant une flexion des avant-bras, descendez lentement la barre vers le front. Les épaules et les coudes doivent rester fixes durant le mouvement. Revenez à la position initiale et répétez le mouvement.
+</value>
+  </data>
+  <data name="description128" xml:space="preserve">
+    <value>Placez-vous dans la machine. Gardez le dos droit et appuyez le torse sur le support prévu à cet effet. Débloquez la charge.; Soulevez la charge et tirez la vers soi à l'aide des omoplates et en utilisant les bras au minimum. Descendez la charge. Répétez le mouvement.</value>
+  </data>
+  <data name="description129" xml:space="preserve">
+    <value>Saisissez les câbles de la poulie basse, placez-vous un peu en avant. Ecartez les mains, placez-les en bas.; Sans plier les bras, amener les poignées l'une vers l'autre en tirant vers le haut, jusqu'au niveau des abdominaux. Maintenez la position quelques secondes, revenez lentement à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description13" xml:space="preserve">
+    <value>Réglez le dossier du banc verticalement. Saisissez la barre, les mains espacées d’une largeur légèrement supérieure à celle des épaules, paumes vers le haut. Tendez les bras au-dessus de la tête.; D'un mouvement fluide descendez la barre, jusqu'aux pectoraux, dès que la barre touche les pectoraux, remontrez la barre vers le haut.</value>
+  </data>
+  <data name="description130" xml:space="preserve">
+    <value>Une poignée dans chaque main (paumes tournées vers l'avant), placez-vous un peu a l'avant en position fente ( = Fléchissez une jambe et placez l'autre tendue derrière) . Écartez sur les cotés les bras légèrement fléchis, verrouillez les coudes dans cette position.; Ramenez les bras à la hauteur des abdominaux sans plier les bras. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description131" xml:space="preserve">
+    <value>Saisissez avec les deux mains la poignée de la poulie haute, placez-vous dos a l'appareil. Tendez les mains au-dessus de la tête.; Verrouillez la position des épaules et des coudes, et pliez les bras vers l'arrière, jusqu'à que les mains se retrouvent sur la tête. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description132" xml:space="preserve">
+    <value>Pendez-vous à la barre fixe. Pliez les jambes, les cuisses à 45°.; En montant les cuisses vers soi effectuez une rotation du bassin de façon à pivoter les genoux sur votre côté droit. Revenez à la position initiale, puis effectuez le mouvement sur votre gauche.</value>
+  </data>
+  <data name="description133" xml:space="preserve">
+    <value>Pendez-vous à la barre fixe.; Montez les jambes vers le haut en faisant un enroulement du buste sur l'abdomen. Descendez les jambes. Répétez le mouvement.</value>
+  </data>
+  <data name="description134" xml:space="preserve">
+    <value>Saisissez les câbles, pieds placés à la largeur des épaules, mains devant soi, les coudes fixe.; Sans plier les coudes, tirez les câbles vers l'arrière en tournant les poignets. Marquez une pause, revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description14" xml:space="preserve">
+    <value>Assis sur le banc, les pieds bien écartés, inclinez le dos vers l'avant. Gardez le dos bien droit et placez une main sur le genou. Saisissez un haltère avec la main libre de façon à ce que vous puissiez toucher votre pied avec.; Ne bougeant pas le dos, ni le coude montez l'haltère vers les pectoraux. Maintenez la position quelques secondes, puis redescendez la main à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description15" xml:space="preserve">
+    <value>Appui face au sol, les bras tendus, les mains espacées d’une largeur supérieure à celle des épaules. Descendez lentement vers le sol, jusqu'à presque touché le sol avec le nez. Revenez à la position initiale.</value>
+  </data>
+  <data name="description16" xml:space="preserve">
+    <value>Appui face au sol, les bras tendus, les mains espacées d’une largeur supérieure à celle des épaules.; Descendez lentement vers le sol, jusqu'à presque touché le sol avec le nez. Revenez à la position initiale.</value>
+  </data>
+  <data name="description17" xml:space="preserve">
+    <value>L'exercice se fait sur des barres parallèles ou sur une chaise romaine. Placez vos mains sur les barres, montez votre corps. Vos bras sont tendus. Les jambes peuvent être fléchies.; Descendez votre corps en pliant les bras jusqu'à environ 90 degrés. Remontez pour revenir à la position initiale.</value>
+  </data>
+  <data name="description18" xml:space="preserve">
+    <value>Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules).; Tirez sur vos bras pour remonter votre corps jusqu'à ce que la barre soit au niveau de votre menton. Maintenez la position quelques secondes et redescendez doucement. Répétez le mouvement.</value>
+  </data>
+  <data name="description19" xml:space="preserve">
+    <value>Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules.; Tirez sur vos bras pour remonter votre corps de façon à ce que la barre touche derrière la nuque. Maintenez la position quelques secondes et redescendez doucement. Répétez le mouvement.</value>
+  </data>
+  <data name="description2" xml:space="preserve">
+    <value>Placez vos mollets sous les supports de jambes, vos abdominaux sur le pupitre, les mains derrière la tête, tenez votre dos droit.; Penchez votre buste vers l'avant jusqu'à que votre corps forme un angle de 90 degrés environ. Relevez votre buste pour revenir à la position droite initiale.</value>
+  </data>
+  <data name="description20" xml:space="preserve">
+    <value>Saisissez la barre, les mains espacées d’une largeur supérieure à celle des épaules, les paumes des mains vers l'arrière (supination).; Tirez sur vos bras pour remonter votre corps jusqu'à ce que la barre soit au niveau de vos clavicules. Redescendez doucement. Répétez le mouvement.</value>
+  </data>
+  <data name="description21" xml:space="preserve">
+    <value>Saisissez la barre, mains en position prise normale.; Tirez sur vos bras pour remonter votre corps jusqu'à ce que la barre soit au niveau de votre menton. Redescendez lentement. Répétez le mouvement.</value>
+  </data>
+  <data name="description22" xml:space="preserve">
+    <value>Saisissez les haltères. Allongez-vous sur le banc, pliez les jambes et placez les pieds sur le bord du banc. Descendez les mains vers le bas au maximum.; Montez les haltères (en pliant l'avant-bras) jusqu'aux pectoraux sans bouger les coudes. Maintenez la position pendant quelques secondes, d'un mouvement fluide descendez les mains à la position initiale.</value>
+  </data>
+  <data name="description23" xml:space="preserve">
+    <value>Réglez le dossier inclinable à 45 degrés. Allongez-vous, placez les pieds à la largeur des épaules, saisissez les haltères, les paumes tournées vers votre corps (vers le banc).; N'écartant pas les coudes, commencez à levez l'avant-bras en tournant en même temps la paume de la main vers le torse. Maintenez la position pendant quelques secondes, revenez à la position initiale puis enchaînez avec l'autre main.</value>
+  </data>
+  <data name="description24" xml:space="preserve">
+    <value>Debout, le dos bien droit, saisissez les haltères.; Montez tour à tour un bras devant vous sans plier les coudes, jusqu'à la hauteur des épaules en tournant à la fin de la monté la paume vers le sol. Maintenais la position pendant quelques secondes.; Redescendez lentement le bras, puis enchaîner avec l'autre bras. Répétez le mouvement.
+</value>
+  </data>
+  <data name="description25" xml:space="preserve">
+    <value>Debout, le dos bien droit, les pieds a la largeur des épaules, saisissez les haltères. Les paumes tournées vers la partie extérieure de vos cuisses.; Pliez le bras en montant la main droite. En montant la main tournez la paume de la main de façon à ce qu'elle regarde votre épaule à la fin de la montée. Maintenez la position pendant quelques secondes. Descendez la main d'un mouvement fluide.; Répétez le mouvement avec le bras gauche.</value>
+  </data>
+  <data name="description26" xml:space="preserve">
+    <value>Allongé au sol, pliez les genoux, placez les mains derrière la tête.; Sans décoller le coccyx du sol levez votre torse en direction des genoux. Puis revenez lentement à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description27" xml:space="preserve">
+    <value>Debout, en vous tenant à un support stable, avec les mains. Placez les pointes des pieds sur une cale, les talons dans le vide. Pliez une jambe, de façon à ce que le pied soit en l'air.; Soulevez-vous avec la pointe du pied. Maintenez la position quelques secondes. Puis redescendez lentement. Répétez l'exercice.</value>
+  </data>
+  <data name="description28" xml:space="preserve">
+    <value>Placez-vous dans la machine, décollez les pieds des repose-pieds et calez bien le buste contre le dossier.; Lentement sans secousses montez les jambes tendues, jusqu'à qu'elles forment un angle droit avec le buste. Revenez lentement à la position initiale.; N'amenez pas les jambes vers l'arrière. Répétez le mouvement.</value>
+  </data>
+  <data name="description29" xml:space="preserve">
+    <value>Placez-vous dans la machine, décollez les pieds des repose-pieds et calez bien le buste contre le dossier.; Lentement sans secousses montez les genoux vers les pectoraux en pliant les jambes. Maintenez la position quelques secondes. Dépliez lentement les jambes pour revenir à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description3" xml:space="preserve">
+    <value>Asseyez-vous sur la machine, tenez votre dos droit, saisissez les poignées.; Élevez les coudes jusqu’à l’horizontale. Maintenez la position quelques secondes, descendez les bras à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description30" xml:space="preserve">
+    <value>Allongé au sol, les bras le long du corps, les jambes à quelques centimètres au-dessus du sol.; Montez les jambes (tendues) jusqu'à 90 degrés sans décoller le dos du sol. Maintenez la position pendant quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description31" xml:space="preserve">
+    <value>Asseyez-vous sur le bord du banc, puis allongez-vous sur le dos, de façon a ce que les jambes et une partie des fessiers soient dans le vide. Tendez vos jambes, descendez-les un peu pour qu'elles soient plus bas que le banc. Serrez le ballon avec les jambes,; puis montez les jambes jusqu'à la verticale. Revenez à la position initiale lentement, sans jeter les jambes vers le bas.</value>
+  </data>
+  <data name="description32" xml:space="preserve">
+    <value>Saisissez la barre les mains espacées à la largeur des épaules, tenez le dos droit.; Sans secousses montez la barre devant vous jusqu'à environ le niveau du menton, sans plier les coudes. Maintenez la position pendant quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description33" xml:space="preserve">
+    <value>Debout, bien droit, les pieds à la largeur des épaules. Saisissez une barre curl EZ en prise normale.; Lentement, sans secousses pliez les bras vers le haut, jusqu'à que la barre arrive environ vers le menton. Maintenez la position pendant quelques secondes. Descendez, lentement, à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description34" xml:space="preserve">
+    <value>Placez-vous sur les genoux, saisissez les câbles, cambrez le dos, appuyez les mains à la tête.; Tirez les câbles vers le bas en essayant de ne pas pencher le buste en arrière. Puis pliez-vous jusqu'à toucher le sol ou les genoux. Marquez une pause. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description35" xml:space="preserve">
+    <value>Saisissez la barre les mains espacées à une largeur supérieure à celle des épaules. Placez la barre derrière la nuque. Tenez le dos bien droit.; Faites un squat (une flexion), en arquant légèrement le bas du dos, pliez les jambes jusqu'à un angle droit. Remontez et répétez l'exercice.</value>
+  </data>
+  <data name="description36" xml:space="preserve">
+    <value>Placez la barre derrière les épaules, et saisissez-la à la largeur des épaules.; Fléchissez les jambes en cambrant le dos, et descendez jusqu’à ce que vos cuisses soient parallèles au sol. Maintenez la position quelques secondes.; Revenez à la position initiale.</value>
+  </data>
+  <data name="description37" xml:space="preserve">
+    <value>Allongé sur un banc droit, saisissez un haltère avec les deux mains. Les bras sont tendus au-dessus de la poitrine.; Descendez les bras derrière la tête en veillant à ce que les coudes soit fléchis au minimum. Maintenez la position pendant quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description38" xml:space="preserve">
+    <value>Allongé sur un banc droit, saisissez un haltère avec les deux mains. Les bras sont tendus au-dessus de la poitrine.; Descendez les bras derrière la tête en veillant à ce que les coudes soit fléchis au minimum. Maintenez la position pendant quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description39" xml:space="preserve">
+    <value>Debout, le dos droit, saisissez les haltères. Les bras peuvent être tendus soit légèrement fléchis.; Écartez en montant les bras jusqu'à la hauteur de la tête / des épaules. Descendez les bras à la position initiale. Descendez les bras à la position initiale.</value>
+  </data>
+  <data name="description4" xml:space="preserve">
+    <value>Positionnez le dossier inclinable verticalement. Saisissez les haltères et tendez les bras au-dessus de vos épaules. Les paumes doivent être tournées vers l'avant.; Descendez lentement les haltères jusqu'au niveau du menton. Maintenez la position pendant quelques secondes. Revenez à la position initiale en dépliant lentement les bras. Répétez le mouvement.</value>
+  </data>
+  <data name="description40" xml:space="preserve">
+    <value>Saisissez les haltères. Penchez le torse en avant tout en gardant le dos droit. Fléchissez les genoux, creusez le bas du dos, les bras sont un petit peu en avant.; Sans secousses levez les bras devant vous. Revenez à la position initiale. Répétez l'exercice.</value>
+  </data>
+  <data name="description41" xml:space="preserve">
+    <value>Allongé sur un banc incliné (environ 45). Haltères dans les mains, bras tendus au-dessus de soi avec les coudes légèrement fléchis.; Fixer les bras dans cette position et écarter les bras jusqu’à l’horizontale. Remonter doucement les bras à la position initiale sans plier les coudes. Répétez l'exercice.</value>
+  </data>
+  <data name="description42" xml:space="preserve">
+    <value>Saisissez un haltère avec la main, placez le genou (opposé à la main avec l'haltère) et la main libre (celle qui est sans haltère) sur le banc, le pied (celui qui est du même coté que la main avec l'haltère) par terre un peu en arrière. Avec le bras (avec l'haltère) former un angle droit. Dépliez l'avant-bras vers l'arrière de façon a ce que le coude ne change pas de position. Une fois le bras tendu vers l'arrière, maintenez la position quelques secondes. Revenez à la position initiale et répétez le mouvement. </value>
+  </data>
+  <data name="description43" xml:space="preserve">
+    <value>Installez vous dans la machine,positionnez les chevilles sous le boudin. Saisissez les poignees, cale bien le dos contre le dossier.; Depliez les jambes jusqu'a l'horizontale. Maintenez la position qulques secondes, revenez a la position initiale. Repetez le mouvement.</value>
+  </data>
+  <data name="description44" xml:space="preserve">
+    <value>Installez-vous dans la machine, placez les mains derrière la tête. Ensuite, penchez-vous vers l'arrière jusqu'à 45-60 degrés.; Puis lever le buste, jusqu'à que la poitrine touche les genoux. Répétez le mouvement</value>
+  </data>
+  <data name="description45" xml:space="preserve">
+    <value>Saisissez la poulie basse en supination, serrez les coudes le long du corps et verrouillez les dans cette position, tenez le dos droit.; En pliant les bras, tirez le câble vers le haut. Une fois les bras pliés, marquez une pause et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description46" xml:space="preserve">
+    <value>Saisissez la poulie haute, serrez les coudes le long du corps et verrouillez-les dans cette position, tenez le dos droit.; Dépliez les bras (sans écarter les coudes sur les cotes) jusqu'à qu'ils soient tendus. Marquez une pause et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description47" xml:space="preserve">
+    <value>Saisissez la poulie haute en supination (paumes tournées vers soi), serrez les coudes le long du corps et verrouillez-les dans cette position, tenez le dos droit.; Dépliez les bras (sans écarter les coudes sur les côtés) jusqu'à qu'ils soient tendus. Marquez une pause et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description48" xml:space="preserve">
+    <value>Allongez-vous à plat ventre sur une machine de flexion de jambes et positionnez vos tendons d’Achille sous le levier rembourré. Saisissez les poignées.; Pliez les jambes en essayant de toucher les fessiers. Maintenez quelques secondes la position et dépliez les jambes revenant à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description49" xml:space="preserve">
+    <value>Saisissez la barre en supination (les paumes tournées vers vous) à une largeur légèrement inférieure à celle des épaules, tenez-vous droit.; Levez la barre vers les pectoraux en fléchissant les coude (attention les coudes doivent restez fixes pendant le mouvement.). Maintenez quelques secondes la position et dépliez les bras revenant a la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description5" xml:space="preserve">
+    <value>Debout, bien droit, placez une main sur la taille, l'autre tendue au-dessus de la tête. Le coude doit rester fixe pendant tout le mouvement. Descendez le bras derrière la tête.; Maintenez quelques secondes la position, puis revenez à la position initiale. Descendez le bras derrière la tête.</value>
+  </data>
+  <data name="description50" xml:space="preserve">
+    <value>Saisissez la barre à la largeur des épaules, prise pronation (les paumes tournées vers le bas). Installez-vous sur le banc Larry Scott.; Montez (en pliant les bras et sans écarter les coudes sur les côtés) la barre. Maintenez la position quelques secondes, revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description51" xml:space="preserve">
+    <value>Placez-vous sur l'appareil hyperextension, votre hanche gauche sur le coussin du banc à hyperextension pour que votre épaule gauche pointe vers le sol. Saisissez un haltère, placez l'autre main derrière la tête, tenez le dos droit.; Descendez au maximum sur la coté vers le bas. Maintenez la position quelques secondes. Remonter le buste. Répétez le mouvement.</value>
+  </data>
+  <data name="description52" xml:space="preserve">
+    <value>Assis sur le banc, saisissez la barre à la largeur des épaules. Placez vos avant-bras sur les genoux, les poignets dans le vide.; Levez les poignets au maximum vers le haut. Maintenez quelques secondes la position, relâcher lentement les poignets vers le bas. Répétez le mouvement.</value>
+  </data>
+  <data name="description53" xml:space="preserve">
+    <value>Assis sur le banc, saisissez la barre en supination (prise inversée) à la largeur des épaules. Placez vos avant-bras sur les genoux, les poignets dans le vide.; Levez les poignets au maximum vers le haut. Maintenez quelques secondes la position, relâcher lentement les poignets vers le bas. Répétez le mouvement.</value>
+  </data>
+  <data name="description54" xml:space="preserve">
+    <value>Asseyez-vous sur le banc Larry Scott, le torse appuyé sur le pupitre, réglez le siège selon votre taille. Saisissez les poignées et montez-les un peu.; Fléchissez les bras. Maintenez la position quelques secondes, revenez à la position initiale sans tendre tout à fait les bras. Répétez le mouvement.</value>
+  </data>
+  <data name="description55" xml:space="preserve">
+    <value>Une poignée dans chaque main (paumes tournées vers l'avant), placez-vous un peu a l'avant en position fente (fléchissez une jambe et placez l'autre tendue derrière) . Écartez sur les côtés les bras légèrement fléchis, verrouillez les coudes dans cette position.; Ramenez les bras devant soi sans plier les bras. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description56" xml:space="preserve">
+    <value>Allongé au sol, les bras écartés sur les côtés. Levez les jambes jusqu'à 90 degrés.; Dirigez vos mains vers la pointe des pieds en levant le torse. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description57" xml:space="preserve">
+    <value>Allongé au sol, les mains derrière la tête, les jambes  à 45 degrés.; En même temps : levez encore plus les jambes et levez le torse en direction des jambes. Maintenez la position quelques secondes, revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description58" xml:space="preserve">
+    <value>Allongez-vous sur le dos, lombaires plaquées au sol. Pliez les jambes en fléchissant les genoux. Placez une main derrière la tête.; Tirez le coude vers le genou du côté opposé en élevant votre buste, mais faites attention à ce que le menton ne touche pas la poitrine. Maintenez quelques secondes la position.; Revenez à la position initiale et répétez le mouvement.</value>
+  </data>
+  <data name="description59" xml:space="preserve">
+    <value>Saisissez la barre, tenez le dos droit, les pieds écartés à la largeur des épaules.; Descendez la barre vers le sol en cambrant les dos et en fléchissant les genoux à la fin. Maintenez la position quelques secondes.; Revenez à la position initiale. Répétez l'exercice.</value>
+  </data>
+  <data name="description6" xml:space="preserve">
+    <value>Allongé sur le banc, saisissez la barre à une largeur supérieure, de 10 cm environ, à celle des épaules.; Enlevez la barre des supports et descendez-la au ras des pectoraux.; Remontez-la lentement vers le haut. Répétez l'exercice.</value>
+  </data>
+  <data name="description60" xml:space="preserve">
+    <value>Assis face à la machine, les manchons bien calés sur les cuisses. Saisissez la barre mains très écartées, tenez votre dos bien droit.; Tirez la barre jusqu’à la nuque, en contrôlant bien la descente. Marquez une pause et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description61" xml:space="preserve">
+    <value>Assis face à la machine, les manchons bien calés sur les cuisses. Saisissez la barre mains très écartées, tenez votre dos bien droit.; Tirez lentement la barre vers le bas, (penchez le buste en arrière au dernier moment) jusqu’au contact de la poitrine. Maintenez la position quelques secondes et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description62" xml:space="preserve">
+    <value>Asseyez-vous sur la machine à la distance des pieds tendus, saisissez la barre (la poignée).; Commencez à amener la charge contre les abdominaux, d'abord en positionnant le dos bien droit, puis en tirant avec les mains. Maintenez la position quelques secondes et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description63" xml:space="preserve">
+    <value>Asseyez-vous sur la machine, saisissez la barre les mains espacées à la largeur des épaules en supination (prise inversée). En cambrant le bas du dos, penchez le buste en arrière.; Maintenez le buste verrouillé dans cette position, tirez la charge jusqu'au contact de la poitrine. Maintenez la position quelques secondes et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description64" xml:space="preserve">
+    <value>Saisissez un haltère avec une main, placez l'autre main et le genou sur un banc droit. Placez le pied qui est au sol un peu en arrière pour avoir une position stable.; Pliez votre bras jusqu'à être dans le prolongement de votre corps en fléchissant le coude. Maintenez quelques secondes la position. Revenez à la position initiale. Après avoir fait un nombre de répétitions avec une main, faites le même nombre de répétitions avec l'autre main.</value>
+  </data>
+  <data name="description65" xml:space="preserve">
+    <value>Saisissez la poignée de la poulie basse avec une main, tournez-vous un peu dos au câble, fixer le coude, placez l'autre main sur la hanche.; Pliez le bras en amenant la main vers le menton. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description66" xml:space="preserve">
+    <value>Placez les mains sur la barre à la largeur des épaules, tenez le dos droit.; Sans secousses tirez la barre vers le menton, en écartant les coudes sur les côtés. Maintenez la position quelques secondes.Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description67" xml:space="preserve">
+    <value>Saisissez la barre. Placez les mains en pronation sur la barre (paumes dirigées vers le bas). Le bas du dos creusé, le dos droit, le buste penché, placez les pieds à la largeur des épaules, fléchissez les genoux.; Sans secousses, tirez sur la barre (vers le tour de taille) amenant les coudes en arrière. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description68" xml:space="preserve">
+    <value>Saisissez la barre. Placez les mains en supination sur la barre (paumes dirigées vers le haut). Le bas du dos creusé, le dos droit, le buste penché, placez les pieds à la largeur des épaules, fléchissez les genoux.; Sans secousses, tirez sur la barre (vers le tour de taille) amenant les coudes en arrière. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description69" xml:space="preserve">
+    <value>Asseyez-vous sur la machine, réglez le niveau de l'assise de façon à ce que les poignées soient au niveau des épaules.; Poussez d'un mouvement fluide, jusqu'à que les bras soient tendus. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description7" xml:space="preserve">
+    <value>Déclinez le dossier inclinable à 25 degrés environ. Allongez-vous dessus, dos sur le dossier, fesses sur l'assise horizontale. Demandez que l'on vous donne la barre. Saisissez la barre à une largeur supérieure, de 10cm environ, à celle des épaules.; Descendez la barre vers les pectoraux, dès que vous touchez le torse, remontez la barre à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description70" xml:space="preserve">
+    <value>Debout bien droit, les genoux légèrement fléchis, saisissez la barre  à la largeur des épaules (ou un peu plus écarté).; Montez les épaules le plus haut possible.; Descendez lentement. Répétez le mouvement.</value>
+  </data>
+  <data name="description71" xml:space="preserve">
+    <value>Debout bien droit, les genoux légèrement fléchis. Placez la barre derrière vous, et saisissez-la à la largeur des épaules (ou un peu plus écarté). La barre est derrière vous un peu prés sous les fessiers.; Montez les épaules le plus haut possible.; Descendez lentement. Répétez le mouvement.</value>
+  </data>
+  <data name="description72" xml:space="preserve">
+    <value>Debout, les pieds placés à la largeur des épaules. Saisissez les poignées de traction et placez les bras parallèlement au sol.; Pliez les bras (en amenant les mains vers les épaules) en contractant les biceps. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description73" xml:space="preserve">
+    <value>Assis sur le banc, saisissez les haltères. Tenez les haltères de façon à ce que les paumes soient tournées l'une vers l'autre (comme quand on applaudit).; Écartez les poignets vers le haut. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description74" xml:space="preserve">
+    <value>Allonge sur le côté au sol, appuyez-vous sur le coude du bras qui est du côté du sol. Placez l'autre main sur la hanche.; Levez le bassin vers le haut, en laissant tranquilles les autres parties du corps. Maintenez la position. Revenez à la position initiale.Répétez le mouvement appuyé sur l'autre coude.</value>
+  </data>
+  <data name="description75" xml:space="preserve">
+    <value>Saisissez les haltères, tenez-vous droit, le dos ne doit pas se voûter pendant l'exercice.; Faites un pas vers l'avant avec le pied droit puis descendez en fléchissant la jambe de devant jusqu'à qu'elle fasse un angle droit.; Revenez à la position initiale, puis enchaînez avec l'autre jambe.</value>
+  </data>
+  <data name="description76" xml:space="preserve">
+    <value>Prenez une barre, placez-la sur vos épaules. Tenez-vous droit, le dos ne doit pas se voûter pendant l'exercice.; Faites un pas vers l'avant avec le pied droit puis descendez en fléchissant la jambe de devant jusqu'à qu'elle fasse un angle droit, marquez une pause.; Revenez à la position initiale, puis enchaînez avec l'autre jambe.</value>
+  </data>
+  <data name="description77" xml:space="preserve">
+    <value>Placez des disques les uns sur les autres pour faire comme une cale. Saisissez la barre, au niveau du bassin derrière vous. Placez-vous debout sur les disques, ; descendez en pliant les jambes sans voûter le dos. Marquez une pause, revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description78" xml:space="preserve">
+    <value>Assis sur le banc, saisissez les haltères. Le dos doit être droit, pliez les bras, les paumes doivent être tournées vers vous.; Depliez les bras vers le haut de façon à ce qu'en haut les paumes soient tournées vers l'avant. Les coudes doivent rester légèrement fléchis, et pour finir le mouvement réunissez les haltères. Tenez quelques secondes ; revenez lentement à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description79" xml:space="preserve">
+    <value>Déclinez le dossier inclinable à 30 degrés environ. Allongez-vous dessus lentement et avec prudence. Saisissez les haltères et placez les mains à hauteur de la poitrine. Les coudes fléchis, bras et avant bras formant un angle droit.; Tendez les bras vers le haut. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description8" xml:space="preserve">
+    <value>Réglez le dossier inclinable du banc à 45 degrés. Ou un peu plus bas. Allongez-vous sur le banc. Saisissez la barre à une largeur supérieure à celle des épaules, enlevez-la des supports.; Descendez-la au ras de la poitrine sans secousses. Maintenez la position quelques secondes et revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description80" xml:space="preserve">
+    <value>Saisissez la roue abdominale. A genoux ,buste penché vers l'avant et les bras avancés en avant , gardez le dos droit.; Faites roulez la roue abdominale devant vous jusqu'à que vos bras forment un angle de 30 degrés avec le sol. Revenez à la position initiale.Répétez le mouvement.</value>
+  </data>
+  <data name="description81" xml:space="preserve">
+    <value>Debout tout près du crossover, saisissez la poignée de la poulie basse avec la main qui est du côté du crossover. Placez l'autre main sur la hanche. Faites 2 pas sur le côté de la main qui est sur la hanche ; penchez le buste sur ce même côté. Revenez à la position initiale. Répétez le mouvement en changeant de main.</value>
+  </data>
+  <data name="description82" xml:space="preserve">
+    <value>Debout tout près du cross over, saisissez la poignée de la poulie basse avec la main qui est la plus éloignée du cross over. Placez l'autre main sur la hanche.; Tirez la main qui tient la poignée sur le côté. Descendez la main à la position initiale. Répétez le mouvement en changeant de main.</value>
+  </data>
+  <data name="description83" xml:space="preserve">
+    <value>Saisissez la barre fixe, les mains placées à une largeur supérieure des épaules.; Sans secousses commencer à tirez votre corps vers le côté de la main droite. Une fois en haut maintenez la position quelques secondes et descendez lentement. Recommencez le mouvement en montant du côté de l'autre main.</value>
+  </data>
+  <data name="description84" xml:space="preserve">
+    <value>Réglez le dossier inclinable du banc à 45 degrés. Saisissez les haltères. Allongez vous sur le banc, et pliez les jambes pour plus de stabilité. Les mains à la hauteur des épaules.; Tendez les bras vers le haut. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description85" xml:space="preserve">
+    <value>Saisissez-les haltères, installez-vous sur le siège, les bras en appui sur le pupitre.; Descendez les haltères, mais sans tendre entièrement les bras, stoppez juste avant que les bras soient tendus. Remontez les bras à la position initiale. Répétez l'exercice.</value>
+  </data>
+  <data name="description86" xml:space="preserve">
+    <value>Trouvez quelque chose qui puisse servir de support. Allongez-vous au sol sur le dos, amenez vos mains au-dessus de la tête et saisissez le support, montez vos jambes jusqu'à qu'elles forment un angle droit avec votre buste. Decollez les fesses du sol. ; En gardant les jambes droites, levez les fessiers encore plus hauts. Puis revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description87" xml:space="preserve">
+    <value>Allongez-voussur le dos, pliez les jambes et placez les pieds sur un ballon.; Montez votre bassin vers le haut. Maintenez la position quelques secondes. Descendez lentement le bassin à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description88" xml:space="preserve">
+    <value>Trouvez un support (banc, ballon). Placez un pied sur le bord du support. Tenez le dos droit,; descendez votre corps vers le bas n'allant pas jusqu'au bout. Remontez à la position initiale. Recommencez le mouvement avec l'autre jambe.</value>
+  </data>
+  <data name="description89" xml:space="preserve">
+    <value>Placez vos pieds à une largeur supérieure à celle de vos épaules. Saisissez la barre en prise normale, tenez le dos droit.; Asseyez-vous en écartant les genoux vers l'extérieur, et faites attention à maintenir le dos droit. Revenez à la position initiale. Répétez le mouvement. </value>
+  </data>
+  <data name="description9" xml:space="preserve">
+    <value>Réglez le dossier inclinable du banc à 45 degrés. Saisissez les haltères allongez-vous sur le dos sur le banc. Tendez les bras verticalement vers le haut (paumes des mains tournées vers l'avant).; Descendez les haltères au maximum en bas en écartant les coudes vers les côtés.; Remontez les haltères à la position initiale, en gardant les coudes légèrement fléchis. Répétez le mouvement.</value>
+  </data>
+  <data name="description90" xml:space="preserve">
+    <value>Saisissez la barre à une largeur supérieure à celle des épaules. Placez-la sur les clavicules (devant sur les épaules) en tenant la barre avec les mains croisées. Le dos est droit.; Puis faites lentement une flexion (un squat) en cambrant le dos. Pliez les jambes jusqu'à un angle droit.; Remontez fluidement. Répétez le mouvement.</value>
+  </data>
+  <data name="description91" xml:space="preserve">
+    <value>Allongez-vous sur un banc avec le dossier décliné, saisissez les haltères. Les bras tendus vers le haut, paumes des mains face-à-face.; Descendez en écartant les bras sur les côtés, en conservant les coudes fléchis. Maintenez la position quelques secondes. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description92" xml:space="preserve">
+    <value>Saisissez les haltères, allongez-vous sur le ventre sur le banc. Fléchissez légèrement les bras.; Écartez les bras vers le haut, en gardant les bras fléchis.Descendez les bras à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description93" xml:space="preserve">
+    <value>Assis sur le banc, le buste penché vers l'avant, saisissez les haltères. Les pieds placés un peu en avant, les bras, légèrement fléchis, un peu en arrière.; Écartez les bras, les coudes toujours légèrement fléchis, jusqu'à l'horizontale. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description94" xml:space="preserve">
+    <value>Saisissez les haltères. Asseyez-vous sur le banc, dont le dossier inclinable est réglé à 45 degrés. Fléchissez les coudes de façon à ce que les bras forment un angle droit.; Levez les bras vers le haut en gardant les coudes fléchis. Descendez les bras. Répétez l'exercice.</value>
+  </data>
+  <data name="description95" xml:space="preserve">
+    <value>Tournez-vous dos au banc. Placez vos mains sur le bord du banc. Tendez les jambes vers l'avant. Placez les pieds sur un support, par exemple quelques disques empilés.; Fléchissez les bras, puis remontez. Répétez le mouvement.</value>
+  </data>
+  <data name="description96" xml:space="preserve">
+    <value>Bloquez une poignée de l'extenseur sous votre pied et une autre dans la main. Tenez votre dos droit. Tendez le bras en haut, la paume de la main tournée vers l'arrière.; Fléchissez le bras, vers l'épaule, pour que le coude reste fixe, vous pouvez le tenir avec la main libre. Revenez à la position initiale. Répétez l'exercice avec l'autre main.</value>
+  </data>
+  <data name="description97" xml:space="preserve">
+    <value>L'extenseur au sol, placez-vous debout dessus sur le milieu. Saisissez les poignées, paumes des mains tournées vers l'extérieur.; Fléchissez les bras, en amenant les mains vers les épaules. En gardant le reste du corps en position statique. Revenez à la position initiale. Répétez le mouvement.</value>
+  </data>
+  <data name="description98" xml:space="preserve">
+    <value>Debout bien droit, prenez le ballon dans les mains. Placez les paumes des mains sur les côtés du ballon et écartez les coudes des deux cotés.; Serrez le ballon pendant 5 secondes. Répétez le mouvement.</value>
+  </data>
+  <data name="description99" xml:space="preserve">
+    <value>Allongé sur un tapis de gym, tenez le ballon entre les jambes. Montez les jambes à 90 degrés (perpendiculaire au sol).; Serrez le ballon pendant 5 secondes. Répétez le mouvement.</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>plus de détails</value>
+  </data>
+  <data name="DietGainCaption" xml:space="preserve">
+    <value>prendre du muscle</value>
+  </data>
+  <data name="DietReliefCaption" xml:space="preserve">
+    <value>relief</value>
+  </data>
+  <data name="DietSm" xml:space="preserve">
+    <value>alimentation</value>
+  </data>
+  <data name="DocName" xml:space="preserve">
+    <value>help.doc</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="Ellipse" xml:space="preserve">
+    <value>vélo elliptique</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="EnterName" xml:space="preserve">
+    <value>Entrez votre nom</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Une erreur est survenue. S'il vous plaît ne vous inquiétez pas ! Contactez-nous.</value>
+  </data>
+  <data name="ExceptionName" xml:space="preserve">
+    <value>Nom incorrect pour l'exercice.</value>
+  </data>
+  <data name="ExceptionNumber" xml:space="preserve">
+    <value>S'il vous plaît entrez un nombre.</value>
+  </data>
+  <data name="ExDetailAddEx" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="ExDetailDifficult" xml:space="preserve">
+    <value>Difficulté :</value>
+  </data>
+  <data name="ExDetailGroups" xml:space="preserve">
+    <value>Groupes musculaires :</value>
+  </data>
+  <data name="ExDetailNext" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="ExDetailPrev" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="ExDetailStep" xml:space="preserve">
+    <value>étape</value>
+  </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>exercice</value>
+  </data>
+  <data name="ExerciseInformation" xml:space="preserve">
+    <value>à propos de l'exercice</value>
+  </data>
+  <data name="ExportExercises" xml:space="preserve">
+    <value>Exporter les résultats des exercices</value>
+  </data>
+  <data name="ExportMessage" xml:space="preserve">
+    <value>Les exercices sont exportés de cette façon : Nom de l'exercice - à la ligne - numéro de la série, poids.</value>
+  </data>
+  <data name="ExportParams" xml:space="preserve">
+    <value>Exporter les mesures du corps</value>
+  </data>
+  <data name="ExRoutineAddEx" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="ExRoutineDelete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="ExRoutineEdit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="ExRoutineRemind" xml:space="preserve">
+    <value>Définir l'heure de rappel</value>
+  </data>
+  <data name="ExRoutineStart" xml:space="preserve">
+    <value>Commencer</value>
+  </data>
+  <data name="FeedBackMessage" xml:space="preserve">
+    <value>Vous savez certainement ce que l'on peut améliorer ou ajouter dans notre programme. Racontez-le-nous !</value>
+  </data>
+  <data name="FeedbackNo" xml:space="preserve">
+    <value>Plus tard.</value>
+  </data>
+  <data name="FeedbackTitle" xml:space="preserve">
+    <value>Vous avez une idée comment faire mieux ?</value>
+  </data>
+  <data name="FeedbackYes" xml:space="preserve">
+    <value>Bien.</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="GoodFood" xml:space="preserve">
+    <value>alimentation optimale</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Taille</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="HelpDescription" xml:space="preserve">
+    <value>Pour que vous ayez confiance en vous, nous avons préparé quelques petits documents, qui vous aideront si vous ne comprenez pas quelque chose. N'oubliez pas que nous serons heureux de vous aider par courrier électronique. Pour nous écrire, il suffit d'appuyer sur le bouton "Écrire aux concepteurs" ! Nous serions contents si vous nous laissez un avis !</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Lire le renseignement</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>aide</value>
+  </data>
+  <data name="HelpVideo" xml:space="preserve">
+    <value>Regarder la vidéo</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>consignes</value>
+  </data>
+  <data name="InstructionsSm" xml:space="preserve">
+    <value>consignes</value>
+  </data>
+  <data name="InvSm" xml:space="preserve">
+    <value>équipements sportifs</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Italien</value>
+  </data>
+  <data name="itEmail" xml:space="preserve">
+    <value>leolalee@hotmail.it</value>
+  </data>
+  <data name="ItTranslator" xml:space="preserve">
+    <value>Paulina Janicka, traducteur</value>
+  </data>
+  <data name="JohnDoe" xml:space="preserve">
+    <value>Jean</value>
+  </data>
+  <data name="Killogrammes" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="Look" xml:space="preserve">
+    <value>revenir à la séance</value>
+  </data>
+  <data name="MainAddComplex" xml:space="preserve">
+    <value>Ajouter une séance</value>
+  </data>
+  <data name="MainOtCardio" xml:space="preserve">
+    <value>Cardio</value>
+  </data>
+  <data name="MainOtDiet" xml:space="preserve">
+    <value>Régime</value>
+  </data>
+  <data name="MainOtInstructions" xml:space="preserve">
+    <value>Consignes</value>
+  </data>
+  <data name="MainOtSportDiet" xml:space="preserve">
+    <value>Les gainers</value>
+  </data>
+  <data name="MainOtSportEquip" xml:space="preserve">
+    <value>Équipements sportifs</value>
+  </data>
+  <data name="MainPnrCmHeader" xml:space="preserve">
+    <value>séances</value>
+  </data>
+  <data name="MainPnrExHeader" xml:space="preserve">
+    <value>exercices</value>
+  </data>
+  <data name="MainPnrOtHeader" xml:space="preserve">
+    <value>divers</value>
+  </data>
+  <data name="MainPnrPrHeader" xml:space="preserve">
+    <value>profil</value>
+  </data>
+  <data name="MainPnrStHeader" xml:space="preserve">
+    <value>statistique</value>
+  </data>
+  <data name="MainPrAge" xml:space="preserve">
+    <value>Âge:</value>
+  </data>
+  <data name="MainPrBodyParameters" xml:space="preserve">
+    <value>Mesures du corps</value>
+  </data>
+  <data name="MainPrChoosePhoto" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="MainPrHeight" xml:space="preserve">
+    <value>Taille:</value>
+  </data>
+  <data name="MainPrName" xml:space="preserve">
+    <value>Nom:</value>
+  </data>
+  <data name="MainPrSettings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="MainPrSex" xml:space="preserve">
+    <value>Sexe:</value>
+  </data>
+  <data name="MainPrWeight" xml:space="preserve">
+    <value>Poids:</value>
+  </data>
+  <data name="MainStParamValue" xml:space="preserve">
+    <value>Tableau de vos mesures</value>
+  </data>
+  <data name="MainStValue" xml:space="preserve">
+    <value>Poids</value>
+  </data>
+  <data name="MainStWeight" xml:space="preserve">
+    <value>Poids</value>
+  </data>
+  <data name="MainStWorkWeight" xml:space="preserve">
+    <value>Tableau des charges maximales
+</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="MessageChooseAction" xml:space="preserve">
+    <value>Définissez l'action à accomplir :</value>
+  </data>
+  <data name="MessageDeleteExercise" xml:space="preserve">
+    <value>Supprimer cet exercice ?</value>
+  </data>
+  <data name="MessageDeleteRoutine" xml:space="preserve">
+    <value>Supprimer cette séance ?</value>
+  </data>
+  <data name="MessageExercisesTrial" xml:space="preserve">
+    <value>Dans la version d'essai de l'application, vous avez accès qu'à 5 exercices par groupe musculaire. Tandis que dans la version complète, vous aurez accès à 130 exercices pour divers groupes musculaires + la possibilité de créer vos propres exercices.</value>
+  </data>
+  <data name="MessageGoToRoutine" xml:space="preserve">
+    <value>Aller à la séance</value>
+  </data>
+  <data name="MessageGoToRoutineAfterAdd" xml:space="preserve">
+    <value>Vous voulez revenir à la séance en cours ?</value>
+  </data>
+  <data name="MessageLib" xml:space="preserve">
+    <value>De la bibliothèque</value>
+  </data>
+  <data name="MessageNameRoutine" xml:space="preserve">
+    <value>Entrez un nom pour la nouvelle séance</value>
+  </data>
+  <data name="MessageNewExercise" xml:space="preserve">
+    <value>Entrez un nom pour le nouvel exercice</value>
+  </data>
+  <data name="MessageNewParametersValue" xml:space="preserve">
+    <value>Entrez la nouvelle signification de la mesure</value>
+  </data>
+  <data name="MessageNewRoutine" xml:space="preserve">
+    <value>SVP entrez le nom de la séance.</value>
+  </data>
+  <data name="MessageNewRoutineTrial" xml:space="preserve">
+    <value>S'il vous plaît entrez le nom de la séance. Dans la version d'essai, vous pouvez créer qu'une séance. Vous pouvez acheter la version complète dans le menu des paramètres.</value>
+  </data>
+  <data name="MessageNewText" xml:space="preserve">
+    <value>Entrez le texte nécessaire</value>
+  </data>
+  <data name="MessageNo" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="MessageNoStep" xml:space="preserve">
+    <value>Vous ne pouvez pas ajouter plus de 3 étapes.</value>
+  </data>
+  <data name="MessageOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="MessagePhoto" xml:space="preserve">
+    <value>Faire une photo</value>
+  </data>
+  <data name="MessageStartRoutine" xml:space="preserve">
+    <value>Vous avez exécuté cette séance récemment. Continuer ?</value>
+  </data>
+  <data name="MessageSuccessfullyAdded" xml:space="preserve">
+    <value>L'exercice a bien été ajouté.</value>
+  </data>
+  <data name="MessageYes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Motivation" xml:space="preserve">
+    <value>motivation</value>
+  </data>
+  <data name="MuscleAbs" xml:space="preserve">
+    <value>Abdominaux</value>
+  </data>
+  <data name="MuscleAbsSm" xml:space="preserve">
+    <value>abdominaux</value>
+  </data>
+  <data name="MuscleBack" xml:space="preserve">
+    <value>Bas du dos</value>
+  </data>
+  <data name="MuscleBackSm" xml:space="preserve">
+    <value>bas du dos</value>
+  </data>
+  <data name="MuscleBackwardDeltas" xml:space="preserve">
+    <value>Deltoïdes postérieurs</value>
+  </data>
+  <data name="MuscleBackwardDeltasSm" xml:space="preserve">
+    <value>deltoïdes postérieurs</value>
+  </data>
+  <data name="MuscleBiceps" xml:space="preserve">
+    <value>Biceps</value>
+  </data>
+  <data name="MuscleBicepsSm" xml:space="preserve">
+    <value>biceps</value>
+  </data>
+  <data name="MuscleButtocks" xml:space="preserve">
+    <value>Fessiers</value>
+  </data>
+  <data name="MuscleButtocksSm" xml:space="preserve">
+    <value>fessiers</value>
+  </data>
+  <data name="MuscleCalves" xml:space="preserve">
+    <value>Mollets</value>
+  </data>
+  <data name="MuscleCalvesSm" xml:space="preserve">
+    <value>mollets</value>
+  </data>
+  <data name="MuscleChest" xml:space="preserve">
+    <value>Pectoraux</value>
+  </data>
+  <data name="MuscleChestSm" xml:space="preserve">
+    <value>pectoraux</value>
+  </data>
+  <data name="MuscleForearms" xml:space="preserve">
+    <value>Avant-bras</value>
+  </data>
+  <data name="MuscleForearmsSm" xml:space="preserve">
+    <value>avant-bras</value>
+  </data>
+  <data name="MuscleForwardDeltas" xml:space="preserve">
+    <value>Deltoïdes antérieurs</value>
+  </data>
+  <data name="MuscleForwardDeltasSm" xml:space="preserve">
+    <value>deltoïdes antérieurs</value>
+  </data>
+  <data name="MuscleGroup" xml:space="preserve">
+    <value>groupes musculaires</value>
+  </data>
+  <data name="MuscleLats" xml:space="preserve">
+    <value>Dorsal</value>
+  </data>
+  <data name="MuscleLatsSm" xml:space="preserve">
+    <value>dorsal</value>
+  </data>
+  <data name="MuscleLegs" xml:space="preserve">
+    <value>Jambes</value>
+  </data>
+  <data name="MuscleMiddleDeltas" xml:space="preserve">
+    <value>Deltoïdes latéraux</value>
+  </data>
+  <data name="MuscleMiddleDeltasSm" xml:space="preserve">
+    <value>deltoïdes latéraux</value>
+  </data>
+  <data name="MuscleQuads" xml:space="preserve">
+    <value>Cuisses</value>
+  </data>
+  <data name="MuscleQuadsSm" xml:space="preserve">
+    <value>cuisses</value>
+  </data>
+  <data name="MuscleShoulders" xml:space="preserve">
+    <value>Deltoïdes</value>
+  </data>
+  <data name="MuscleShouldersSm" xml:space="preserve">
+    <value>deltoïdes</value>
+  </data>
+  <data name="MuscleTraps" xml:space="preserve">
+    <value>Trapèze</value>
+  </data>
+  <data name="MuscleTrapsSm" xml:space="preserve">
+    <value>trapèze</value>
+  </data>
+  <data name="MuscleTriceps" xml:space="preserve">
+    <value>Triceps</value>
+  </data>
+  <data name="MuscleTricepsSm" xml:space="preserve">
+    <value>triceps</value>
+  </data>
+  <data name="name1" xml:space="preserve">
+    <value>Fentes avant</value>
+  </data>
+  <data name="name10" xml:space="preserve">
+    <value>Développé-couché en supination (prise inversée)</value>
+  </data>
+  <data name="name100" xml:space="preserve">
+    <value>Tirage croisé à la poulie haute</value>
+  </data>
+  <data name="name101" xml:space="preserve">
+    <value>Flexion poignet</value>
+  </data>
+  <data name="name102" xml:space="preserve">
+    <value>Tirage menton avec haltères</value>
+  </data>
+  <data name="name103" xml:space="preserve">
+    <value>Coup de poing au crossover</value>
+  </data>
+  <data name="name104" xml:space="preserve">
+    <value>Flexion biceps debout alternée</value>
+  </data>
+  <data name="name105" xml:space="preserve">
+    <value>Haussement d'épaules</value>
+  </data>
+  <data name="name106" xml:space="preserve">
+    <value>Presse inclinée</value>
+  </data>
+  <data name="name107" xml:space="preserve">
+    <value>Squats en diagonale</value>
+  </data>
+  <data name="name108" xml:space="preserve">
+    <value>Développé couché à la machine Smith</value>
+  </data>
+  <data name="name109" xml:space="preserve">
+    <value>Presse à cuisse</value>
+  </data>
+  <data name="name11" xml:space="preserve">
+    <value>Développé couché, prise serrée</value>
+  </data>
+  <data name="name110" xml:space="preserve">
+    <value>Développé nuque debout</value>
+  </data>
+  <data name="name111" xml:space="preserve">
+    <value>Développé militaire</value>
+  </data>
+  <data name="name112" xml:space="preserve">
+    <value>Pompes à la machine Smith</value>
+  </data>
+  <data name="name113" xml:space="preserve">
+    <value>Tractions à la machine guidée</value>
+  </data>
+  <data name="name114" xml:space="preserve">
+    <value>Extension mollet assis</value>
+  </data>
+  <data name="name115" xml:space="preserve">
+    <value>Tirage charge vers le bas</value>
+  </data>
+  <data name="name116" xml:space="preserve">
+    <value>Machine Smith devant</value>
+  </data>
+  <data name="name117" xml:space="preserve">
+    <value>Machine Smith nuque</value>
+  </data>
+  <data name="name118" xml:space="preserve">
+    <value>Adducteurs assis à la machine</value>
+  </data>
+  <data name="name119" xml:space="preserve">
+    <value>Abducteurs assis à la machine</value>
+  </data>
+  <data name="name12" xml:space="preserve">
+    <value>Développé nuque à la barre debout</value>
+  </data>
+  <data name="name120" xml:space="preserve">
+    <value>Écartés jambes en position horizontale</value>
+  </data>
+  <data name="name121" xml:space="preserve">
+    <value>Squats avec ballon</value>
+  </data>
+  <data name="name122" xml:space="preserve">
+    <value>Fentes au mur</value>
+  </data>
+  <data name="name123" xml:space="preserve">
+    <value>Flexions à la machine Smith</value>
+  </data>
+  <data name="name124" xml:space="preserve">
+    <value>Flexions à la machine Smith (large)</value>
+  </data>
+  <data name="name125" xml:space="preserve">
+    <value>Flexion du tronc sur ballon de gym</value>
+  </data>
+  <data name="name126" xml:space="preserve">
+    <value>Levé de jambe allongé sur le côté</value>
+  </data>
+  <data name="name127" xml:space="preserve">
+    <value>Extension triceps allongé</value>
+  </data>
+  <data name="name128" xml:space="preserve">
+    <value>Tirage vertical à la barre en T</value>
+  </data>
+  <data name="name129" xml:space="preserve">
+    <value>Ecarté à la poulie vis à vis basse</value>
+  </data>
+  <data name="name13" xml:space="preserve">
+    <value>Développé militaire assis avec barre </value>
+  </data>
+  <data name="name130" xml:space="preserve">
+    <value>Écarté à la poulie vers le bas</value>
+  </data>
+  <data name="name131" xml:space="preserve">
+    <value>Extension croisé à la poulie haute</value>
+  </data>
+  <data name="name132" xml:space="preserve">
+    <value>Relevé de jambes suspendu, oblique</value>
+  </data>
+  <data name="name133" xml:space="preserve">
+    <value>Relevé de jambes long</value>
+  </data>
+  <data name="name134" xml:space="preserve">
+    <value>Écartes au crossover</value>
+  </data>
+  <data name="name14" xml:space="preserve">
+    <value>Flexion bras assis sur le banc</value>
+  </data>
+  <data name="name15" xml:space="preserve">
+    <value>Pompe</value>
+  </data>
+  <data name="name16" xml:space="preserve">
+    <value>Pompe</value>
+  </data>
+  <data name="name17" xml:space="preserve">
+    <value>Dips (Répulsion aux barres)</value>
+  </data>
+  <data name="name18" xml:space="preserve">
+    <value>Traction</value>
+  </data>
+  <data name="name19" xml:space="preserve">
+    <value>Traction derrière la nuque</value>
+  </data>
+  <data name="name2" xml:space="preserve">
+    <value>Extension du buste au banc</value>
+  </data>
+  <data name="name20" xml:space="preserve">
+    <value>Traction en supination</value>
+  </data>
+  <data name="name21" xml:space="preserve">
+    <value>Traction prise normale</value>
+  </data>
+  <data name="name22" xml:space="preserve">
+    <value>Développé couché avec haltères</value>
+  </data>
+  <data name="name23" xml:space="preserve">
+    <value>Développé incliné avec haltères</value>
+  </data>
+  <data name="name24" xml:space="preserve">
+    <value>Elévation avant avec haltères
+</value>
+  </data>
+  <data name="name25" xml:space="preserve">
+    <value>Elévation avant avec haltères alterné</value>
+  </data>
+  <data name="name26" xml:space="preserve">
+    <value>Relevé du buste</value>
+  </data>
+  <data name="name27" xml:space="preserve">
+    <value>Extension mollets</value>
+  </data>
+  <data name="name28" xml:space="preserve">
+    <value>Relevé de jambes</value>
+  </data>
+  <data name="name29" xml:space="preserve">
+    <value>Relevé de jambes vers soi</value>
+  </data>
+  <data name="name3" xml:space="preserve">
+    <value>Élévation latérale à la machine</value>
+  </data>
+  <data name="name30" xml:space="preserve">
+    <value>Relevé de jambes couché</value>
+  </data>
+  <data name="name31" xml:space="preserve">
+    <value>Relevé de jambes avec ballon</value>
+  </data>
+  <data name="name32" xml:space="preserve">
+    <value>Élévation frontale à la barre</value>
+  </data>
+  <data name="name33" xml:space="preserve">
+    <value>Tirage menton barre</value>
+  </data>
+  <data name="name34" xml:space="preserve">
+    <value>Enroulé du buste à genoux vers le sol</value>
+  </data>
+  <data name="name35" xml:space="preserve">
+    <value>Squats avec barre</value>
+  </data>
+  <data name="name36" xml:space="preserve">
+    <value>Squats avec barre derrière la nuque</value>
+  </data>
+  <data name="name37" xml:space="preserve">
+    <value>Pull-over</value>
+  </data>
+  <data name="name38" xml:space="preserve">
+    <value>Pull-over</value>
+  </data>
+  <data name="name39" xml:space="preserve">
+    <value>Élévation latérale</value>
+  </data>
+  <data name="name4" xml:space="preserve">
+    <value>Développé droit assis</value>
+  </data>
+  <data name="name40" xml:space="preserve">
+    <value>Élévation latérale incliné</value>
+  </data>
+  <data name="name41" xml:space="preserve">
+    <value>Écartés incliné avec haltères</value>
+  </data>
+  <data name="name42" xml:space="preserve">
+    <value>Extension haltères</value>
+  </data>
+  <data name="name43" xml:space="preserve">
+    <value>Extension jambes</value>
+  </data>
+  <data name="name44" xml:space="preserve">
+    <value>Chaise romaine</value>
+  </data>
+  <data name="name45" xml:space="preserve">
+    <value>Flexion poulie basse barre en supination</value>
+  </data>
+  <data name="name46" xml:space="preserve">
+    <value>Extension poulie haute barre en pronation</value>
+  </data>
+  <data name="name47" xml:space="preserve">
+    <value>Extension poulie haute barre en supination</value>
+  </data>
+  <data name="name48" xml:space="preserve">
+    <value>Flexions des jambes en position allongée</value>
+  </data>
+  <data name="name49" xml:space="preserve">
+    <value>Flexions bras en supination</value>
+  </data>
+  <data name="name5" xml:space="preserve">
+    <value>Développé nuque avec haltères </value>
+  </data>
+  <data name="name50" xml:space="preserve">
+    <value>Flexion en supination banc Scott</value>
+  </data>
+  <data name="name51" xml:space="preserve">
+    <value>Flexion 45 degres</value>
+  </data>
+  <data name="name52" xml:space="preserve">
+    <value>Flexion poignet</value>
+  </data>
+  <data name="name53" xml:space="preserve">
+    <value>Flexion poignet prise supination</value>
+  </data>
+  <data name="name54" xml:space="preserve">
+    <value>Banc Larry Scott</value>
+  </data>
+  <data name="name55" xml:space="preserve">
+    <value>Ecarté à la poulie vis à vis haute</value>
+  </data>
+  <data name="name56" xml:space="preserve">
+    <value>Enroulé du buste avec jambes verticales</value>
+  </data>
+  <data name="name57" xml:space="preserve">
+    <value>Enroulé du buste avec jambes verticales</value>
+  </data>
+  <data name="name58" xml:space="preserve">
+    <value>Enroulé du buste sur les côtés</value>
+  </data>
+  <data name="name59" xml:space="preserve">
+    <value>Soulevé de terre</value>
+  </data>
+  <data name="name6" xml:space="preserve">
+    <value>Développé-couché</value>
+  </data>
+  <data name="name60" xml:space="preserve">
+    <value>Tirage nuque</value>
+  </data>
+  <data name="name61" xml:space="preserve">
+    <value>Tirage poitrine (devant)</value>
+  </data>
+  <data name="name62" xml:space="preserve">
+    <value>Tirage dorsaux à la poulie</value>
+  </data>
+  <data name="name63" xml:space="preserve">
+    <value>Tirage poitrine en supination (prise inversée)</value>
+  </data>
+  <data name="name64" xml:space="preserve">
+    <value>Tirage avec haltère</value>
+  </data>
+  <data name="name65" xml:space="preserve">
+    <value>Tirage cable vers poitrine</value>
+  </data>
+  <data name="name66" xml:space="preserve">
+    <value>Tirage (rowing) menton</value>
+  </data>
+  <data name="name67" xml:space="preserve">
+    <value>Tirage de barre (rowing) en pronation</value>
+  </data>
+  <data name="name68" xml:space="preserve">
+    <value>Tirage de barre (rowing) en supination</value>
+  </data>
+  <data name="name69" xml:space="preserve">
+    <value>Développé à la machine convergente</value>
+  </data>
+  <data name="name7" xml:space="preserve">
+    <value>Développé décliné</value>
+  </data>
+  <data name="name70" xml:space="preserve">
+    <value>Haussement d'épaules a la barre (shrugs)</value>
+  </data>
+  <data name="name71" xml:space="preserve">
+    <value>Haussement d'épaules a la barre deriere (shrugs)</value>
+  </data>
+  <data name="name72" xml:space="preserve">
+    <value>Biceps au crossover</value>
+  </data>
+  <data name="name73" xml:space="preserve">
+    <value>Flexion poignet pouces pointés vers le haut</value>
+  </data>
+  <data name="name74" xml:space="preserve">
+    <value>Gainage latéral</value>
+  </data>
+  <data name="name75" xml:space="preserve">
+    <value>Fentes arrières</value>
+  </data>
+  <data name="name76" xml:space="preserve">
+    <value>Fentes avec la barre</value>
+  </data>
+  <data name="name77" xml:space="preserve">
+    <value>Squats sur la pointe des pieds</value>
+  </data>
+  <data name="name78" xml:space="preserve">
+    <value>Développé Arnold</value>
+  </data>
+  <data name="name79" xml:space="preserve">
+    <value>Développé décliné aux haltères</value>
+  </data>
+  <data name="name8" xml:space="preserve">
+    <value>Développé incliné</value>
+  </data>
+  <data name="name80" xml:space="preserve">
+    <value>Roue adbominale</value>
+  </data>
+  <data name="name81" xml:space="preserve">
+    <value>Flexion latérale à la poulie</value>
+  </data>
+  <data name="name82" xml:space="preserve">
+    <value>Tirage charge latérale à la poulie</value>
+  </data>
+  <data name="name83" xml:space="preserve">
+    <value>Tractions d'un côté à l'autre</value>
+  </data>
+  <data name="name84" xml:space="preserve">
+    <value>Développé incliné avec haltères</value>
+  </data>
+  <data name="name85" xml:space="preserve">
+    <value>Flexion des avant-bras au banc Larry Scott</value>
+  </data>
+  <data name="name86" xml:space="preserve">
+    <value>Relevé de jambes, mains accrochées</value>
+  </data>
+  <data name="name87" xml:space="preserve">
+    <value>Relevé de bassin</value>
+  </data>
+  <data name="name88" xml:space="preserve">
+    <value>Squat sur une jambe</value>
+  </data>
+  <data name="name89" xml:space="preserve">
+    <value>Squat large</value>
+  </data>
+  <data name="name9" xml:space="preserve">
+    <value>Développé incliné avec des haltères</value>
+  </data>
+  <data name="name90" xml:space="preserve">
+    <value>Squats barre devant</value>
+  </data>
+  <data name="name91" xml:space="preserve">
+    <value>Écartés décliné avec haltères</value>
+  </data>
+  <data name="name92" xml:space="preserve">
+    <value>Écartés avec haltères allonge sur le ventre</value>
+  </data>
+  <data name="name93" xml:space="preserve">
+    <value>Écartés avec haltères pour deltoïdes postérieurs</value>
+  </data>
+  <data name="name94" xml:space="preserve">
+    <value>Écartés avec haltères pour deltoides </value>
+  </data>
+  <data name="name95" xml:space="preserve">
+    <value>Extension triceps</value>
+  </data>
+  <data name="name96" xml:space="preserve">
+    <value>Extension avec extenseur pour triceps</value>
+  </data>
+  <data name="name97" xml:space="preserve">
+    <value>Flexion avec extenseur pour biceps</value>
+  </data>
+  <data name="name98" xml:space="preserve">
+    <value>Serrage du ballon avec les mains</value>
+  </data>
+  <data name="name99" xml:space="preserve">
+    <value>Serrage du ballon avec les jambes</value>
+  </data>
+  <data name="NewExercise" xml:space="preserve">
+    <value>Nouvel exercice</value>
+  </data>
+  <data name="NewRoutine" xml:space="preserve">
+    <value>Nouvelle séance</value>
+  </data>
+  <data name="NewStep" xml:space="preserve">
+    <value>Nouvelle étape</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Rappel</value>
+  </data>
+  <data name="NotificationAsk" xml:space="preserve">
+    <value>CHOISISSEZ L'HEURE DU RAPPEL</value>
+  </data>
+  <data name="OtherCaption" xml:space="preserve">
+    <value>information</value>
+  </data>
+  <data name="OtherInfoCardioBicycle" xml:space="preserve">
+    <value>Faire du vélo d'appartement ou, encore mieux, faire du vrai vélo est un excellent exercice pour muscler les jambes et les fessiers ainsi que pour entretenir le système cardiovasculaire. Pendant que vous pédalez, essayez de relâcher toutes les tensions et surtout le bas du dos (les lombaires) - cela vous évitera beaucoup de problèmes. Écoutez de la musique et pédalez de bonne humeur, car vous avez encore du chemin à faire !</value>
+  </data>
+  <data name="OtherInfoCardioEllipse" xml:space="preserve">
+    <value>C'est pour de bon le meilleur appareil de cardio-training pour muscler les fessiers. À l'aide de cet appareil vous obtiendriez des fessiers que beaucoup vont vous envier, alors réfléchissez bien si c'est ce que vous voulez ? Nous recommandons cet appareil pour ceux qui pensent que la marche sur le tapis de course est trop facile, l'exercice est le même, mais la difficulté augmente. Gardez les pieds bien a plat sur la plateforme et vous y arriverez.</value>
+  </data>
+  <data name="OtherInfoCardioRun" xml:space="preserve">
+    <value>La course à pied est un exercice totalement gratuit, même pas besoin de salle de sport, puisqu'on peut courir dans un stade, dehors... Quand vous courez, il faut faire attention à votre pouls, car si vous courez vite ou avec des intervalles, le cœur peut se mettre à battre trop vite (plus de 180 battements de cœur par min) ce qui n'est pas bon. Pour protéger vos genoux posez d'abord la pointe des pieds et ensuite le talon.</value>
+  </data>
+  <data name="OtherInfoFoodMGain" xml:space="preserve">
+    <value>Pour prendre du muscle, il faut beaucoup de protéines. Faites de sorte que dans vos rations alimentaires, il y est 1.5 - 2 gr. de protéines pour chaque kilo de votre masse. Dans ce cas, vous êtes surs de gagner en masse musculaire. Si vous n'arrivez pas à consommez autans de protéines, rassurez-vous, il existe des suppléments en poudre, appelés gainers, riches en glucides, protéines et calories. Augmentez, les jours de vos sessions de sport, la consommation de calories.</value>
+  </data>
+  <data name="OtherInfoFoodVitamins" xml:space="preserve">
+    <value>Vous pouvez utiliser des compléments alimentaires et des vitamines pour un résultat meilleur. On fait un accent sur les acides gras oméga-3, car ils sont importants pour le bon fonctionnement de l'organisme et l'organisme d'un sportif en a surtout besoin, à cause des efforts importants. L'huile de lin est une source d'oméga-3. Le goût n'est pas super, en revanche il y a pleins d'oméga-3.</value>
+  </data>
+  <data name="OtherInfoFoodWeightLoss" xml:space="preserve">
+    <value>Pour mincir, il faut manger moins. :-) Essayer de manger moins de calories que vous en usez - dans ce cas, vous perdrez du poids à coup sûr. Préférez les glucides complexes (céréales, pain complet...) aux glucides simples. Essayez de bannir les aliments à valeur calorifique élevée comme les gâteaux, les noix et enchaînez les cardio sessions.</value>
+  </data>
+  <data name="OtherInfoGoodFoodChicken" xml:space="preserve">
+    <value>3. Le poulet est pauvre en matières grasses et riche en protéines.</value>
+  </data>
+  <data name="OtherInfoGoodFoodEggs" xml:space="preserve">
+    <value>1. L’œuf est riche en protéines et en matières grasses insaturées.</value>
+  </data>
+  <data name="OtherInfoGoodFoodFish" xml:space="preserve">
+    <value>5. Le poisson est riche en protéines, oméga-3, acides gras polyinsaturés.</value>
+  </data>
+  <data name="OtherInfoGoodFoodRice" xml:space="preserve">
+    <value>6. Le riz, le sarrasin, le millet, les céréales ... - glucides complexes, riches en calories, aliments rassasiants.</value>
+  </data>
+  <data name="OtherInfoGoodFoodTvorog" xml:space="preserve">
+    <value>2. Le fromage blanc est riche en protéines et est une source de calcium. </value>
+  </data>
+  <data name="OtherInfoGoodFoodVeg" xml:space="preserve">
+    <value>4. Les légumes sont pauvres en sucres, riche en fibres et vitamines.</value>
+  </data>
+  <data name="OtherInfoHello" xml:space="preserve">
+    <value>Passez le bonjour!</value>
+  </data>
+  <data name="OtherInfoInsta" xml:space="preserve">
+    <value>https://instagram.com/bauchgefuhl/</value>
+  </data>
+  <data name="OtherInfoManualAbdominals" xml:space="preserve">
+    <value>Travaillez les abdos à chaque entraînement, et ce, à la fin de votre session. N'oubliez pas que les abdominaux sont des muscles comme les autres, ce qui veut dire que faire 200 abdos ne vous donnera pas d'avantages par rapport aux 15-20 répétitions faites à chaque session. Pour un résultat meilleur, il faut travailler avec des charges.</value>
+  </data>
+  <data name="OtherInfoManualAbdominalsHeader" xml:space="preserve">
+    <value>abdos</value>
+  </data>
+  <data name="OtherInfoManualAssistHeader" xml:space="preserve">
+    <value>assurage</value>
+  </data>
+  <data name="OtherInfoManualAssistOne" xml:space="preserve">
+    <value>1) Quand vous assurez un développé couché, placez-vous si c'est possible derrière le banc. Demandez à votre partenaire s'il enlèvera la barre des supports tout seul ou s'il a besoin d'aide. S'il a besoin d'aide : attendez qu'il place ses mains sur la barre et saisissez la barre en prise serrée. Pas besoin de forcer, il suffit d'aider légèrement. 2) Contrôlez le déroulement de l'exercice. Faites attention à ce que votre partenaire ne lâche pas la barre, mais ne l'aidez pas trop tôt, laissez le finir sa série. S'il bloque soyez attentif, il peut avoir besoin de votre aide ou non. S'il n'arrive pas à pousser la barre vers le haut aidez-le à le faire.</value>
+  </data>
+  <data name="OtherInfoManualAssistTwo" xml:space="preserve">
+    <value>3) Dans le cas des flexions des jambes, placez-vous derrière votre partenaire. Contrôlez son mouvement, faites attention à ce qu'il ne se penche ni avant ni en arrière. Si vous voyez qu'il ne peut plus remonter avec ses forces, attrapez le avec les mains au tour de la taille et levez-vous avec lui. Vaut mieux contrôler votre ami pendant tout le temps de l'exercice. 4) N'ayez pas peur de refuser d'assurer quelqu'un, si vous voyez que c'est trop lourd pour vous. Par exemple, si vous soulevé 70kg, et une personne qui soulève 140kg vous demande de l'assurer, refuser poliment, cela n'a rien de méchant.</value>
+  </data>
+  <data name="OtherInfoManualClearGoals" xml:space="preserve">
+    <value>Dans n'importe quelle activité, il est très important d'avoir un objectif. Il est donc logique de supposer que vos entraînements dans la salle de sport sous-entendent que vous voulez obtenir un résultat précis, par exemple : se maintenir en bonne forme physique, ou accentuer le relief musculaire, ou vous voulez peut-être perdre du poids. Il faut se fixer un objectif à l'avance, et élaborez votre programme d’entraînement par rapport à cet objectif.</value>
+  </data>
+  <data name="OtherInfoManualClearGoalsHeader" xml:space="preserve">
+    <value>objectifs</value>
+  </data>
+  <data name="OtherInfoManualConcentration" xml:space="preserve">
+    <value>Concentrez-vous sur un groupe musculaire, essayer de sentir la tension dans les muscles. Avec cette concentration, l'effectivité des entraînements augmente et de plus, vous arriverez à faire des exercices avec des poids plus lourds que d'habitude.</value>
+  </data>
+  <data name="OtherInfoManualConcentrationHeader" xml:space="preserve">
+    <value>concentrez-vous</value>
+  </data>
+  <data name="OtherInfoManualEtiquet" xml:space="preserve">
+    <value>Soyez courtois et rangez toujours après vous les disques, les barres et autres équipements. Souvenez-vous que personne ne veut le faire, mais si chacun fait l'effort de ranger après soi, vous n'aurez plus besoin de chercher dans un tas de disques celui dont vous avez besoin. Et puis évitez d'occuper un appareil sans demander l'accord à la personne qui s'en sert - ça peut la blesser. N'oubliez pas la gentillesse :)</value>
+  </data>
+  <data name="OtherInfoManualEtiquetHeader" xml:space="preserve">
+    <value>savoir-vivre</value>
+  </data>
+  <data name="OtherInfoManualFirstTime" xml:space="preserve">
+    <value>Si vous êtes débutant et c'est votre première fois à la salle de sport, il faut que vous consultiez un médecin, car la salle de sport n'est pas compatible avec certaines maladies. Même si vous avez quelques problèmes de santé avec lesquels vous êtes autorisé à faire du sport, tenez votre coach au courant.</value>
+  </data>
+  <data name="OtherInfoManualFirstTimeHeader" xml:space="preserve">
+    <value>débutant</value>
+  </data>
+  <data name="OtherInfoManualMedic" xml:space="preserve">
+    <value>Si vous êtes débutant et c'est votre première fois à la salle de sport, il faut que vous consultiez un médecin, car la salle de sport n'est pas compatible avec certaines maladies. Même si vous avez quelques problèmes de santé avec lesquels vous êtes autorisé à faire du sport, tenez votre coach au courant.</value>
+  </data>
+  <data name="OtherInfoManualMedicHeader" xml:space="preserve">
+    <value>médecin</value>
+  </data>
+  <data name="OtherInfoManualMotivation" xml:space="preserve">
+    <value>Les entraînements vous aideront à obtenir un physique plus attrayant et une bonne santé. Par ailleurs, les gens qui font du sport sont plus heureux et ont une bonne résistance nerveuse et physique. Pour vous montrer que nous ne mentons pas allez jeter un coup d'œil à cette jeune fille, elle s'appelle Nastya Manohina, son instagram</value>
+  </data>
+  <data name="OtherInfoManualTalking" xml:space="preserve">
+    <value>En fréquentant la salle de sport, vous allez faire des connaissances, et même peut-être vous faire des amis. Discuter pendant l'entraînement, c'est bien, mais restez quand même concentré sur votre travail. Si vous discutez pendant un moment vos muscles risquent de se refroidir et il vous sera difficile de travailler avec vos charges habituelles et vous risquez de vous blesser. Mais bon... si c'est une jolie jeune fille, pourquoi pas faire connaissance ?</value>
+  </data>
+  <data name="OtherInfoManualTalkingHeader" xml:space="preserve">
+    <value>discussions</value>
+  </data>
+  <data name="OtherInfoPhotoAuthor" xml:space="preserve">
+    <value>Auteur de la photo - Nicolas Tavelskij. Son site</value>
+  </data>
+  <data name="OtherInfoPhotoSite" xml:space="preserve">
+    <value>http://www.tavelski.com/</value>
+  </data>
+  <data name="OtherInfoSportDietBCAA" xml:space="preserve">
+    <value>Les Acides Aminés BCAA, sont importants pour la croissance musculaire. Ils réduisent le phénomène de catabolisme (qui « détruit » les muscles pendant la séance) , accentuent le relief musculaire et améliorent l'anabolisme (la croissance musculaire). Vous pouvez en prendre 2-3 fois par jour (5gr par fois). Ils se trouvent aussi naturellement dans les produits laitiers et la viande.</value>
+  </data>
+  <data name="OtherInfoSportDietBCAAHeader" xml:space="preserve">
+    <value>bcaa</value>
+  </data>
+  <data name="OtherInfoSportDietCarnitineHeader" xml:space="preserve">
+    <value>la L-Carnitine</value>
+  </data>
+  <data name="OtherInfoSportDietCreatine" xml:space="preserve">
+    <value>La créatine est le supplément le moins cher et le plus efficace. La créatine sert dans le processus de formation de l'ATP, une des sources d'énergie des muscles, ce qui vous permet d'augmenter l'intensité de vos entraînements. Consommez 3-5 gr (mélangé dans de l'eau) après votre entraînement. Les jours de repos - quand vous voulez.</value>
+  </data>
+  <data name="OtherInfoSportDietCreatineHeader" xml:space="preserve">
+    <value>la créatine</value>
+  </data>
+  <data name="OtherInfoSportDietProtein" xml:space="preserve">
+    <value>On trouve des protéines dans notre nourriture habituelle, mais si on fait de la musculation, il est possible d'en avoir besoin en plus. Les trois types de suppléments de protéines les plus utilisées sont fabriqués à partir de petit-lait (lactosérum), de poudre de lait (caséine), et de soya. Préférez celui qui est fait à partir de petit-lait (appelé Whey protein), car c'est les protéines les mieux (ou plus rapidement) absorbées par notre organisme.</value>
+  </data>
+  <data name="OtherInfoSportDietProteinHeader" xml:space="preserve">
+    <value>les protéines</value>
+  </data>
+  <data name="OtherInfoStretchMainInfo" xml:space="preserve">
+    <value>Les étirements, sont essentiels dans les entraînements. Il est plus facile et moins dangereux de les faire une fois les muscles échauffés, on recommande donc de les faire à la fin de votre session. On peut faire la séance d'exercices d'étirements à la maison comme en salle de sport. On vous présente une "version maison" d'étirements.</value>
+  </data>
+  <data name="OtherInfoWarmUpArmsChest" xml:space="preserve">
+    <value>La plupart des exercices dans la salle de sport sont pour les muscles de la "zone haut" du corps. Le seul jour quand ce n'est pas le cas - c'est le jour où vous travaillez les jambes. Mais même ce jour-là, il est important que vos muscles des épaules et du dos soient échauffés, parce que, par exemple, quand vous faites des squats, ces muscles vous maintiennent. Vous pouvez les échauffer en faisant différents balancements des bras.</value>
+  </data>
+  <data name="OtherInfoWarmUpArmsChestHeader" xml:space="preserve">
+    <value>les bras et les pectoraux</value>
+  </data>
+  <data name="OtherInfoWarmUpBack" xml:space="preserve">
+    <value>C'est le groupe musculaire le plus fréquemment blessé. Tant d'histoire à propos du dos blessé. C'est vrai, il est assez facile de blesser le dos (contracture, claquage) c'est le résultat d'un échauffement mal fait + des poids lourds + mauvaise technique. Les muscles du dos tiennent la colonne vertébrale, qui est assez importante dans notre corps, pas vrai ? Donc échauffer vous bien le dos en faisant des rotations et des inclinaisons.</value>
+  </data>
+  <data name="OtherInfoWarmUpBackHeader" xml:space="preserve">
+    <value>le dos</value>
+  </data>
+  <data name="OtherInfoWarmUpLeg" xml:space="preserve">
+    <value>Les jambes sont faciles à échauffer... Mais si on ne les échauffe pas assez, il est possible qu'on ressente des crampes pendant les exercices. À échauffer en faisant des rotations avec les cuisses et des squats sans charges.
+</value>
+  </data>
+  <data name="OtherInfoWarmUpLegHeader" xml:space="preserve">
+    <value>les jambes</value>
+  </data>
+  <data name="OtherInfoWarmUpNeck" xml:space="preserve">
+    <value>N'oubliez pas le cou lors de l'échauffement. Dans beaucoup d'exercices, du genre extension nuque, ce groupe musculaire est en effort. Donc si vous ne l'avez pas échauffé correctement, vous risquez de vous faire mal. L'échauffement est très simple : inclinez la tête en avant - en arrière, puis à droite - à gauche.</value>
+  </data>
+  <data name="OtherInfoWarmUpNeckHeader" xml:space="preserve">
+    <value>le cou</value>
+  </data>
+  <data name="OtherInfoWarmUpWrist" xml:space="preserve">
+    <value>Ce sont des muscles très importants, car c'est eux qui tiennent les charges et les poids lors de vos entraînements. Dans des exercices comme développé couché, le soulevé de terre, l'extension nuque, ou pendant que vous travaillez les biceps et dans beaucoup d'autres exercices les poignets sont en plein effort. Pour les échauffer, il suffit de faire des rotations avec vos poignets.</value>
+  </data>
+  <data name="OtherInfoWarmUpWristHeader" xml:space="preserve">
+    <value>poignets</value>
+  </data>
+  <data name="OtherInstructions" xml:space="preserve">
+    <value>
+1) Ce qu'il faut obligatoirement prendre a l'entraînement, c'est, bien sûr, des chaussures et une tenue adaptée au sport. Une serviette de bain et de l'eau (non-gazeuse et sans colorants) ne seront pas de trop. Souvenez-vous qu'il ne faut en aucun cas s'entraîner en tongs, sandales, ou chaussures à talons - vous risquez de vous blesser. Si vous avez des cheveux longs - attachez-les - car ils peuvent se coincer dans un appareil ça peut  alors faire très mal et ça peut même vous blesser. Evitez d'utiliser du parfum, car quand vous faites du sport, il est inévitable de transpirer, et la transpiration avec le parfum n'est pas un bouquet d'odeurs très agréable.</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>programmes d'entraînement</value>
+  </data>
+  <data name="RateMessageOne" xml:space="preserve">
+    <value>Si l'application vous a plu, soyez gentils, notez - là ! </value>
+  </data>
+  <data name="RateMessageTwo" xml:space="preserve">
+    <value>Ça fait plaisir aux auteurs et ça leur permet d'améliorer l'application avec enthousiasme !</value>
+  </data>
+  <data name="RateNo" xml:space="preserve">
+    <value>Non merci!</value>
+  </data>
+  <data name="RateYes" xml:space="preserve">
+    <value>Noter!</value>
+  </data>
+  <data name="RatingTitle" xml:space="preserve">
+    <value>L'application vous plaît ?</value>
+  </data>
+  <data name="Remainder" xml:space="preserve">
+    <value>rappel</value>
+  </data>
+  <data name="RemindApply" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="RemindDelete" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="ReminderHint" xml:space="preserve">
+    <value>Le rappel fonctionnera chaque semaine à l'heure choisie.</value>
+  </data>
+  <data name="ReminderWarning" xml:space="preserve">
+    <value>La date doit être inférieure à celle d'aujourd'hui.</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="RemoveExercise" xml:space="preserve">
+    <value>Supprimer l'exercice</value>
+  </data>
+  <data name="RemoveStep" xml:space="preserve">
+    <value>déplacer</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Renommer</value>
+  </data>
+  <data name="RenameRoutine" xml:space="preserve">
+    <value>Ici, vous pouvez renommer une séance.</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value>Répétitions</value>
+  </data>
+  <data name="RepsSh" xml:space="preserve">
+    <value>répét.</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>course à pied</value>
+  </data>
+  <data name="RunShDescription" xml:space="preserve">
+    <value>La course à pied est l'une des meilleures activités au monde ! Grâce à la course à pied, vous deviendrez plus résistant, plus fort et elle permet d'éliminer les graisses.</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Russe</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>recherche</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>Série:</value>
+  </data>
+  <data name="Sets" xml:space="preserve">
+    <value>Série</value>
+  </data>
+  <data name="SetsDesc" xml:space="preserve">
+    <value>Ici, vous pouvez décrire vos séries pour les exercices (Série, répétitions, poids…)</value>
+  </data>
+  <data name="SetsSh" xml:space="preserve">
+    <value>série</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>paramètres</value>
+  </data>
+  <data name="SettingsAbout" xml:space="preserve">
+    <value>À propos du programme</value>
+  </data>
+  <data name="SettingsExStatDel" xml:space="preserve">
+    <value>Supprimer les données des exercices</value>
+  </data>
+  <data name="SettingsParamStatDel" xml:space="preserve">
+    <value>Supprimer les données des mesures</value>
+  </data>
+  <data name="SkydriveSignIn" xml:space="preserve">
+    <value>Se connecter à SkyDrive (pour la synchronisation des données)</value>
+  </data>
+  <data name="SportDietSm" xml:space="preserve">
+    <value>les gainers (alimentation sportive)</value>
+  </data>
+  <data name="Stretch" xml:space="preserve">
+    <value>Stretching</value>
+  </data>
+  <data name="StretchExercises" xml:space="preserve">
+    <value>exercices</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>temps</value>
+  </data>
+  <data name="Tons" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="TotalWeight" xml:space="preserve">
+    <value>Vous avez déjà soulevé :</value>
+  </data>
+  <data name="VideoURL" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Vitamins" xml:space="preserve">
+    <value>vitamines</value>
+  </data>
+  <data name="WarmUp" xml:space="preserve">
+    <value>Échauffement</value>
+  </data>
+  <data name="WarmUpSm" xml:space="preserve">
+    <value>échauffement</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Poids</value>
+  </data>
+  <data name="WeightLossHeader" xml:space="preserve">
+    <value>mincir</value>
+  </data>
+  <data name="WeightSh" xml:space="preserve">
+    <value>Poids</value>
+  </data>
+</root>
