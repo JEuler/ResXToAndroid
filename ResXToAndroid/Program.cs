@@ -77,7 +77,7 @@ namespace ResXToAndroid {
 				else if ( mode == "atoi" ) {
 					List<string> strs = new List<string>();
 					foreach ( var pair in result ) {
-						strs.Add( string.Format( "\"{0}\": \"{1}\"", pair.Name, pair.Value ) );
+						strs.Add( string.Format( "{0}=\"{1}\";", pair.Name, pair.Value ) );
 					}
 
 					File.WriteAllLines( string.Format( fileName + "_ios" ), strs );
@@ -86,7 +86,7 @@ namespace ResXToAndroid {
 				{
 					List<string> strs = new List<string>();
 					foreach ( var pair in result ) {
-						strs.Add( string.Format( "\"{0}\": \"{1}\"", pair.Name, pair.Value ) );
+						strs.Add( string.Format( "{0}=\"{1}\";", pair.Name, pair.Value ) );
 					}
 
 					File.WriteAllLines( string.Format(fileName + "_ios"), strs );

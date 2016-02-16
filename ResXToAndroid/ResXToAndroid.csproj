@@ -50,9 +50,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AppResources.fr.resx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="strings.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
