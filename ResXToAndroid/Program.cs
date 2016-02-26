@@ -36,11 +36,11 @@ namespace ResXToAndroid {
 				if (mode.StartsWith("w"))
 				{
 
-					result = from item in xDoc.Descendants("string")
+					result = from item in xDoc.Descendants("data")
 						select new XmlKeyValue()
 						{
 							Name = item.Attribute("name").Value,
-							Value = item.Element("Value").Value
+							Value = item.Element("value").Value
 						};
 				} else if (mode.StartsWith("a"))
 				{
