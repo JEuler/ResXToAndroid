@@ -35,15 +35,15 @@ namespace ResXToAndroid
 					result = from item in xDoc.Descendants("data")
 						select new XmlKeyValue()
 						{
-							Name = item.Attribute("name").Value,
-							Value = item.Element("value").Value
+							Name = item.Attribute("name")?.Value,
+							Value = item.Element("value")?.Value
 						};
 				} else if (mode.StartsWith("a"))
 				{
 					result = from item in xDoc.Descendants("string")
 						select new XmlKeyValue()
 						{
-							Name = item.Attribute("name").Value,
+							Name = item.Attribute("name")?.Value,
 							Value = item.Value
 						};
 				}
