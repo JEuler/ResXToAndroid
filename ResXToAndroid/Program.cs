@@ -1,22 +1,18 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace ResXToAndroid {
+namespace ResXToAndroid
+{
 	class Program {
 		struct XmlKeyValue
 		{
 			public string Name { get; set; }
 			public string Value { get; set; }
 		}
-
 
 		static void Main( string[] args ) {
 			// First parameter is the name of resx
