@@ -9,7 +9,7 @@ namespace ResConverter
 {
     class Program
     {
-        struct XmlKeyValue
+        private struct XmlKeyValue
         {
             public string Name { get; set; }
             public string Value { get; set; }
@@ -23,7 +23,7 @@ namespace ResConverter
                 var fileName = args[0];
                 var mode = args[1];
 
-                XDocument xDoc = XDocument.Load(fileName);
+                var xDoc = XDocument.Load(fileName);
                 IEnumerable<XmlKeyValue> result = null;
 
                 if (mode.StartsWith("w"))
@@ -48,9 +48,8 @@ namespace ResConverter
                 switch (mode)
                 {
                     case "wtoa":
-                        XmlWriterSettings settings = new XmlWriterSettings {Indent = true};
-                        // ToDo change name stuff
-                        XmlWriter writer = XmlWriter.Create("strings.xml", settings);
+                        var settings = new XmlWriterSettings {Indent = true};
+                        var writer = XmlWriter.Create("strings.xml", settings);
                         writer.WriteStartElement("resources");
                         if (result != null)
                             foreach (var pair in result)
@@ -68,14 +67,13 @@ namespace ResConverter
                         break;
                     case "atoi":
                     {
-                        List<string> strs = new List<string>();
+                        var strs = new List<string>();
                         if (result != null)
-                            foreach (var pair in result)
-                            {
-                                var str = pair.Value;
-                                var replaced = str.Replace("\"", "\\\"");
-                                strs.Add(string.Format("\"{0}\"=\"{1}\";", pair.Name, replaced));
-                            }
+                            strs.AddRange(
+                                from pair in result 
+                                let str = pair.Value 
+                                let replaced = str.Replace("\"", "\\\"") 
+                                select string.Format("\"{0}\"=\"{1}\";", pair.Name, replaced));
 
                         File.WriteAllLines(string.Format(fileName + "_ios"), strs);
                         Console.WriteLine("All done, enjoy!");
@@ -83,12 +81,9 @@ namespace ResConverter
                     }
                     case "wtoi":
                     {
-                        List<string> strs = new List<string>();
+                        var strs = new List<string>();
                         if (result != null)
-                            foreach (var pair in result)
-                            {
-                                strs.Add(string.Format("\"{0}\"=\"{1}\";", pair.Name, pair.Value));
-                            }
+                            strs.AddRange(result.Select(pair => string.Format("\"{0}\"=\"{1}\";", pair.Name, pair.Value)));
 
                         File.WriteAllLines(string.Format(fileName + "_ios"), strs);
                         Console.WriteLine("All done, enjoy!");
