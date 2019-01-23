@@ -1,7 +1,10 @@
 language: csharp
 solution: ResXToAndroid.sln
 mono: none
-dotnet: 2.2.0
+sudo: required
+dist: xenial
+dotnet: 2.2
+
 install:
 - dotnet restore
 script:
