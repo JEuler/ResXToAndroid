@@ -15,7 +15,6 @@ namespace ResConverter
             public string Value { get; set; }
         }
 
-        // ReSharper disable once UnusedMember.Global
         public static void Main(string[] args)
         {
             // First parameter is the name of resx
