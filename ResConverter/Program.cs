@@ -15,7 +15,8 @@ namespace ResConverter
             public string Value { get; set; }
         }
 
-        static void Main(string[] args)
+        // ReSharper disable once UnusedMember.Global
+        public static void Main(string[] args)
         {
             // First parameter is the name of resx
             try
@@ -67,25 +68,25 @@ namespace ResConverter
                         break;
                     case "atoi":
                     {
-                        var strs = new List<string>();
+                        var contents = new List<string>();
                         if (result != null)
-                            strs.AddRange(
+                            contents.AddRange(
                                 from pair in result 
                                 let str = pair.Value 
                                 let replaced = str.Replace("\"", "\\\"") 
                                 select $"\"{pair.Name}\"=\"{replaced}\";");
 
-                        File.WriteAllLines(string.Format(fileName + "_ios"), strs);
+                        File.WriteAllLines(string.Format(fileName + "_ios"), contents);
                         Console.WriteLine("All done, enjoy!");
                         break;
                     }
                     case "wtoi":
                     {
-                        var strs = new List<string>();
+                        var contents = new List<string>();
                         if (result != null)
-                            strs.AddRange(result.Select(pair => string.Format("\"{0}\"=\"{1}\";", pair.Name, pair.Value)));
+                            contents.AddRange(result.Select(pair => $"\"{pair.Name}\"=\"{pair.Value}\";"));
 
-                        File.WriteAllLines(string.Format(fileName + "_ios"), strs);
+                        File.WriteAllLines(string.Format(fileName + "_ios"), contents);
                         Console.WriteLine("All done, enjoy!");
                         break;
                     }
