@@ -73,7 +73,7 @@ namespace ResConverter
                                 from pair in result 
                                 let str = pair.Value 
                                 let replaced = str.Replace("\"", "\\\"") 
-                                select string.Format("\"{0}\"=\"{1}\";", pair.Name, replaced));
+                                select $"\"{pair.Name}\"=\"{replaced}\";");
 
                         File.WriteAllLines(string.Format(fileName + "_ios"), strs);
                         Console.WriteLine("All done, enjoy!");
@@ -101,7 +101,7 @@ namespace ResConverter
 
             catch (IndexOutOfRangeException)
             {
-                Console.WriteLine("You give me no file! Please, give me file! Or give me mode: atoi, wtoi, wtoa");
+                Console.WriteLine("You give me no file! Please, give me file! Or give the mode: atoi, wtoi, wtoa");
                 Console.WriteLine("Any key to exit:");
                 Console.ReadLine();
             }
