@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace ResConverter
 {
-    class Program
+    static class Program
     {
         private struct XmlKeyValue
         {
@@ -20,8 +20,14 @@ namespace ResConverter
             // First parameter is the name of resx
             try
             {
-                var fileName = args[0];
+#if DEBUG
+				var fileName = "strings.xml";
+				var mode = "atoi";
+#else
+
+                var fileName = args[ 0 ];
                 var mode = args[1];
+#endif
 
                 var xDoc = XDocument.Load(fileName);
                 IEnumerable<XmlKeyValue> result = null;
